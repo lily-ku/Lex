@@ -1,0 +1,13 @@
+Class c {m, n, tʼ, t, d, kʼ, k, g, qʼ, q, j, w}
+Class v {a, o, u}
+
+v:
+    {aw, ow, uw} => {aa, oo, uu}
+    {aj, oj, uj} => {ä, ö, ü}
+
+c:
+    {tʼ, kʼ, qʼ} => {t, k, q}
+    {t, k, q} => {s, č, x}
+    {d, g} => {z, j}
+    Then: z => t / @v _ $
+    Then: č => k / @v _ $

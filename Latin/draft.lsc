@@ -1,0 +1,30 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, ḏ, ḍ, θ, q}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ā, ē, ō, ǐ, ǝ, ū}
+
+w:
+ ego => iu / $ _ $
+ quomo => cuma
+ quando => canda
+ ille => il
+ elles => els
+ illes => ils
+ cinque => cinc
+
+v:
+ ae => ê
+ o => * / @c _ $
+ ile => èl / _ $
+ e => * / @c _ $
+ o => u / $ @c? _
+ ia => e / _ $
+ Then: ar => à / _ $
+ Then: er => è / _ $
+ Then: ir => ì / _ $
+
+c:
+ qu => ch / _ {i, e}
+ quo => cu
+ ll => l / _ $
+ r => re / @c _ $
+ li => ll / @v _ @v
+ s => es / $ _ @c

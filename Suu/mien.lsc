@@ -1,0 +1,23 @@
+Class c {p, t, k, b, d, g, r, l, w, y, c, ñ, ŋ, q}
+Class v {a, e, i, o, u, ë, ò}
+
+c:
+  {j, c, tr} => ch
+  q => *
+  {kl, pl} => tr
+  mr => r
+  ñ => n / _ $
+  ngq => nh
+  ŋ => ng
+  tp => v
+  c => t / _ $
+  {r, l, s} => i / _ $
+  ñ => nh / $ _
+  pr => s
+  pw => b
+  k => c
+  gh => kh
+  Then: cy => ch
+
+v:
+  aw => au

@@ -1,0 +1,67 @@
+Feature +asp, +lab, +long
+Feature type(fric, stop, nas, approx)
+Feature manner(alv, glot, vel, dent, lab)
+Feature voice(unv, v)
+
+Diacritic ʰ [+asp]
+Diacritic ʷ [+lab]
+Diacritic  ́ [+long]
+
+Symbol d [v dent stop]
+Symbol t [unv dent stop]
+Symbol b [v lab stop]
+Symbol p [unv lab stop]
+Symbol w [lab approx]
+Symbol n [alv nas]
+Symbol m [lab nas]
+Symbol ʔ [glot stop]
+Symbol k [unv vel stop]
+Symbol s [unv alv fric]
+Symbol g [v vel stop]
+
+Class v {a, e, ə, o, i, í, ú, u, á}
+Class c {d, t, b, l, ŋ, p, w, n, m, r, ʔ, k, s, g, j}
+
+c-muts:
+ t => * / @v _ $
+ Then: t => * / j _ $
+ mʔ => ŋ
+ lw => w
+ ts => c
+ Then: cj => ch
+ tsʰ => cʰ
+ sj => sh
+ ŋ => nh
+ Then: nh => * / $ _ @v // $ _ @v $
+ @c w => [+lab] *
+ kʰ => sh
+ Then: sh j => s *
+ s => r / _ $
+ @c l => @c *
+ kj => ch
+ tʰ => h
+ m => * / $ _ @c
+ tʷ => d
+ dj => j
+ cʰ => h
+ Then: hj => sh
+ @c j => @c *
+ gʷ => b
+ @c @c => * @c / $ _
+ Then: @c @c => @c * / $ _
+ dz => z
+ rʷ => g
+ sʷ => z
+ kʷ => g
+ pʷ => m
+
+v-muts:
+ ə => u // _ nh
+ Then: ə => a
+ o => * / @v @c _ $
+ Then: d => t / _ $
+ e => o / _ nh
+ j => i / @v _
+ Then: ei => a / _ r
+ @v$1 w => $1 $1
+ Then: @v$1 $1 => [+long] *

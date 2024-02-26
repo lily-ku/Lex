@@ -1,0 +1,59 @@
+Class c {s, z, r, l, w, p, t, k, b, d, g, þ, j, n, m, y, f, h}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū, ô, å, ö, ü}
+
+pre:
+    ff => f
+
+v:
+    {a, o, u} => e / _ {n, nd} $
+    ā => o
+    ei => oo
+    {ī, īa} => ei
+    {a, o, i, e, u} => * / @v @c _ @c @v
+    Then: en => e / _ $
+    Then: {o, a} => * / @c _ $ // $ @c _ $
+    uo => åå
+    iu => ü
+    {ur, ar, or} => er / _ $
+    {āha, aha, ahe} => oa
+    ewi => öö / @c _ @c
+    io => ö
+    ō => uu
+    ou => aa
+    Then: aaw => aa
+    Then: i => e / @c _ $
+    Then: ere => eer
+    ū => o
+    au => å
+
+c:
+    z => ś / $ _
+    {ph, pf} => f
+    ag => ig / _ $ // $ @c _ $
+    ch => k
+    b => w / @v _ @v
+    z => s / _ $
+    nt => nn / @v _ @v
+    Then: tisk => ts
+    h => g / @v _ $
+    hh => ch
+    f => v / $ _
+    sk => ss / _ $
+    gi => g / $ _ {l, r}
+    f => v / @v _ @v
+    Then: gi => ge / $ _ @c
+    Then: nt => nd / _ $
+    Then: ung => ing / _ $
+    Then: re => er / @c _ $
+    s => z / $ _
+    Then: z => s / $ _ @c // _ w
+    h => ch / @v _ @c
+    Then: {achs, echs} => {aas, ees}
+    sk => ss / @v _ @v
+    zui => zwe
+    ś => s
+
+post:
+    ahe => oa
+    b => w / @v _ @v
+    sl => schl

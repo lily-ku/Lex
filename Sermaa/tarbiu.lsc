@@ -1,0 +1,60 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, š, ś, č, v}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ą, ų, y, į, ė}
+Class r {r, u, k, i}
+Class sv {a, e, i, o, u}
+
+v:
+ āu => uo
+ ē => ė
+ l => u / @v _ $
+ ā => ą
+ Then: ą => a / ą @c _
+ ī => y
+ Then: eu => au
+ Then: ą => a / @v @c? @c _ $
+ i => e / @v @c? @c _ $
+ Then: uu => ų / _ $
+ Then: ūu => ų / _ $
+ Then: ąe => i
+ ja => ė / @c _ $
+ ū => u / _ $
+ ūr => ų
+
+c:
+ ś => š
+ w => v
+ re => n / @v _ $
+ ėr => ė / _ $
+ nak => kn / @v _ @v
+ ml => l / $ _
+
+p:
+ ąs => us / _ $
+ ąvu => ą / _
+ ą => o / _ @c @c
+ @c$1 @v$2 r => $1 r $2 // _ @sv
+ Then: @c$1 @sv$2 r @v$3 => $1 * r $3
+ ms => mp
+ ą => a / _ @c {ū, ų}
+ ąu => ų / _ $
+ ąė => ie
+ yvy => vy
+ aą => ą
+ ąi => ai
+ tv => v / @v _ @v
+
+p2:
+ {s, m, n, z, r, l, š} r @v$1 => {s, m, n, z, r, l, š} $1 r
+ j => i // $ _ @v
+ Then: i => j / @v _ @v
+ er => ė / _ $
+ ou => au
+ yu => iu
+ aau => o
+ tša => čia
+ Then: ąje => uje
+ ygi => į / @c _ @c
+ yve => iė / @c _
+ ais => iės
+ ėa => ėi
+ ų => ū // _ $

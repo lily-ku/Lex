@@ -1,0 +1,20 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ñ, f}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ɔ, ɛ, ɪ, a, ʊ}
+
+v:
+    {ɔ, ɛ, ʊ} => {ọ, ẹ, a}
+    Then: {aa, ee, ii, oo, uu, ọọ, ẹẹ} => {ẹ, i, ya, u, ọ, we, ye}
+
+c:
+    h => *
+    {nt, nd} => {nk, ng}
+    {mk, mg} => {mp, mb}
+    b => m / _ $
+    ñ => y / $ _
+
+p:
+    * => h / $ _ @v {ng, nk, mp, mb}
+
+tones:
+    {a, e, i, o, u, ọ, ẹ} => {á, é, í, ó, ú, ọ́, ẹ́} / {p, t, k} _
+    {a, e, i, o, u, ọ, ẹ} => {à, è, ì, ò, ù, ọ̀, ẹ̀} / {b, d, g} _

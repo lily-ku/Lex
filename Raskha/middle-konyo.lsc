@@ -1,0 +1,11 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ñ, f, l}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ɔ, ɛ, ɪ, ʊ, ọ, ẹ}
+
+v:
+    {ɔ, ɛ, ɪ, ʊ} => {o, a, e, o}
+    i => a / _ $
+    Then: {aa, ee, ii, oo, uu} => {ọ, ia, ẹ, ua, ua}
+
+c:
+    {c, j} => {ts, dz}
+    ñ => ny

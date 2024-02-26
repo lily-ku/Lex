@@ -1,0 +1,19 @@
+Class c {p, t, k, b, d, g, h, l, r, n, m, ŋ, q, s, x, z, ḷ, j, y, ḍ, ġ, v}
+Class v {a, e, i, u, ä, ā, ē, ī, ō, ū, o}
+
+v:
+    {aw, ao} => ô
+    {ā, ē, ī, ō, ū} => {a, e, i, o, u}
+    Then: {oa, ua} => wa
+    Then: ia => ie
+
+c:
+    k => * / _ $
+    {a, e, i, u, o} => {ą, ę, į, ų, ǫ} / _ m {@c, $}
+    Then: m => * / _ {@c, $}
+    {s, k} => {sh, ch} / _ i
+    Then: s => sh / {u, i} _
+    Then: s => sh / _ {u, i}
+    {p, t, k} => {b, d, g} / @v _ @v
+    b => m / $ _
+    y => n / $ _

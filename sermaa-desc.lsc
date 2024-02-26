@@ -1,0 +1,36 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r}
+Class v {a, ạ, e, ẹ, ẹ, i, o, ọ, u, ọ̄, ̣ạ̄, ä, ē, ẹ̄, ee, ạ, ū}
+
+v-muts:
+ ọ => a
+ ā => aa
+ ọ̄ => aa
+ ạ̄ => ää
+ ạ => ä
+ ạ => ä
+ ẹ => e
+ ẹ̄ => ee
+ ē => ee
+ ū => uu
+
+c-muts:
+ w => v
+ z => s
+ d => t
+ t => tt // $ _
+ Then: tt => * / _ $
+ b => p / $ _
+ b => v / @v _ @v
+ l => i / @v _ @c
+ Then: l => i / @v _ $
+ g => k
+ k => kk // $ _
+ b => v / r _
+
+post:
+ @v$1 r => $1 $1 * / _ $
+ @c$1 r => $1 $1 * / _ $
+ Then: @c$1 $1 $1 => $1 $1 * / _ $
+ @c$1 $1 @c => $1 * @c
+ ẹ => e
+ @v$1 $1 $1 => $1 $1 * / _ $

@@ -1,0 +1,25 @@
+Class c {g, l, n, s, c, q, d, t, r, p, b, v, m, f, h}
+Class v {a, e, i, o, u}
+
+c-muts:
+ tionem => xon
+ ll => y
+ quo => co
+ qua => ca
+ li => i / @v _ @v
+ s @c$1 => es $1 / $ _
+ ls => x / @v _ @v
+ x @c$1 => s $1
+ lp => b
+ cci => xi
+ {min, mn, ng, gn} => nh / @v _ @v
+
+v-muts:
+ iya => ía
+ ayi => aí
+ iye => yé / $ _ $
+ eyo => ío
+ are => ar / _ $
+ ere => er / _ $
+ ire => ir / _ $
+ i => e * / $ _

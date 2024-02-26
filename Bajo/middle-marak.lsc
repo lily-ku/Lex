@@ -1,0 +1,14 @@
+Class c {p, t, k, b, d, g, h, l, r, n, m, ŋ, q, s, x, z, ḷ, j, y, ḍ, ġ, v}
+Class v {a, e, i, u, ä, ā, ē, ī, ō, ū, o}
+
+v:
+    {a, o, u} => * / @c _ $ // $ @c _ $
+
+c:
+    h => *
+    l => n / _ $
+    {ḍ, ġ} => {z, h}
+    g => k / _ $
+    p => ʼ / _ $
+    p => ʼ / _ @c
+    Then: {ts, dz} => {th, dh}

@@ -1,0 +1,12 @@
+Class c {p, t, c, q, b, d, g, m, n, l, r, h, s, w, v, k, f}
+Class v {a, e, i, o, u, á, é, í, ó, ú, æ, ø, å, ò, â, ý, y, ä, ö, j}
+
+ifv:
+    ā => o
+    iæ => i
+    æ => ä
+    ø => ö
+
+ifc:
+    ck => kk
+    

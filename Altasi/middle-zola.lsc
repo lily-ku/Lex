@@ -1,0 +1,24 @@
+Class c {b, ḅ, t, d, k, g, ġ, p, ṗ, ḥ, c, l, r, m, n, z, ṡ, s, ż, w, x, ŵ, ŝ, ǰ, ñ, v, f, ž, š}
+Class v {a, e, i, o, u, ã, ẽ, õ, ũ, ǒ, ị, ẹ, ü, å, ö, ä, ø}
+
+v:
+  øø => i
+  ø => e
+  ee => i
+  oo => o
+  ii => i
+  uu => au
+
+c:
+  bh => m
+  ph => ṃ
+  rr => ṙ
+  r => * / @v _ $
+  d => t / _ $
+  {š, ž} => {s, z}
+  q => g
+
+p:
+  mr => mir / $ _
+  ṃr => ṃar / $ _
+  w => u / @v _

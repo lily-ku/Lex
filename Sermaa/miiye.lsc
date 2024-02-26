@@ -1,0 +1,68 @@
+Class c {p, t, k, s, m, n, g, d, z, b, w, j, l, r, y, c, ḏ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ā, ē, ō, ǐ, ǝ, ò, ù, ò, ə, ì, à, á, ó, ú, í, é, ǎ, î}
+
+v:
+ â => é
+ ǔ => ù
+ û => ú
+ ǎ => è
+ ǐ => ì
+ ə => ò
+ ā => aa
+ Then: a => à / w _ @v
+ u => * / _ $
+ or => ái / _ $
+ î => í
+ ū => uu
+
+c:
+ j => y
+ t => * / _ $
+ θ => t
+ q => sh
+ l => n / _ $
+ x => h
+ ḍ => * / @v _ @v
+ Then: i => y / _ @v
+ eḍ => é
+ ḏ => j
+ s => * / _ $
+ ry => nn
+ si => * / $ _ @c // _ @c @c
+ p => h
+ sr => sh
+ tr => ch
+ tt => ch
+ s => * / $ _
+ ṯ => ch
+ tk => kw
+ tb => bw
+ rh => y
+
+p:
+ w => * / @v _ @v
+ ww => bb
+ w => * / $ _
+ aar => áa / _ $
+ rj => d
+ r @c$1 => $1 $1
+ l @c$1 => $1 $1
+ ir => i / _ $
+ uur => úu / _ $
+ os => òo / _ @c
+ uus => ùu / _ @c
+ éḍ => ée
+ ír => íi / _ $
+ es => èe / _ @c
+ ur => * / @c _ $
+
+p2:
+ u => w / @c _ @v
+ èyè => íi
+ ww => bb
+ yi => i / $ _
+ lh => sh
+ th => s
+ er => a / _ $
+ Then: w => * / @c @c _
+ is => ìi / $ _ @c

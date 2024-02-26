@@ -1,0 +1,19 @@
+Class c {m, n, tʼ, t, d, kʼ, k, g, qʼ, q, j, w, č, š, v, s, z}
+Class v {a, o, u, ä, ö, ü, ë}
+
+v:
+    ë => *
+    oo => uo
+    Then: @v$1 => $1 $1 / _ n $
+
+c:
+    anv => ov
+    nv => v
+    č => t
+    š => ss
+    s => h / _ $
+    m => a / u _ $
+    m => u / {a, o} _ $
+    m => i / {ä, ö, ü} _ $
+    n => * / _ $
+    j => i / @v _ $

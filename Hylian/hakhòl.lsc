@@ -1,0 +1,28 @@
+Feature +nasal, +long, +aspiration
+
+Diacritic ̃ [+nasal]
+Diacritic ː [+long]
+Diacritic ʰ [+aspiration]
+
+Class v {a, e, ɛ, u, ʊ, o, i}
+Class c {θ, n, b, t, k, s, l, j, d, z, ʃ, t͡ʃ, w, ʋ, r, g, p, ʒ, d͡ʒ, m, c, f, ɣ, v}
+
+v-muts:
+ aː => ɛ
+ u => * / _ $
+ eː => i
+ al => ɒ / _ @c
+
+c-muts:
+ θ => h
+ b => p / _ $
+ f => v
+ rst => rr / @v _ @v
+ t => * / _ $
+ ani => ɛː / _ $
+ r => * / _ $
+
+post:
+ u => ə / $ @c? _ // _ @v
+ @c @v h => [+aspiration] * *
+ @c$1 $1 => [+aspiration] *

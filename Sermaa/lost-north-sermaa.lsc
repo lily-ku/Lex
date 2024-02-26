@@ -1,0 +1,79 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, š, ś, č}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē}
+Class r {r, u, k, i}
+
+v:
+ ọ => a
+ ẹ => a
+ Then: aa => ā
+ ee => ē
+ ạạ => ī
+ ạ => a
+ uu => ū
+ j => * / $ _ @v
+ ir => i / _ $
+ oo => ā
+ or => ā / _ $
+
+c:
+ s => š / @v _ @r
+ s => š / @r _ @v
+ s => š / @r _ @c
+ s => š / _ @r
+ r => as / @c _ $
+ k => ś / _ i
+ t => s / _ $
+ sj => š
+ tz => s
+ l => u / @v _ @c
+ rz => rš
+ @v$1 l @v$2 => l * $2
+ Then: @v$1 l => l $1 // _ $
+ tj => č
+ j => w / {u, o, ū} _ @v
+ z => * / $ _
+ z => r
+ sp => ps / @v _ @v
+ sm => ms / @v _ @v
+
+p:
+ ou => au
+ iu => ī
+ al => ā / _ $
+ uu => ū
+ uw => ug / @v _ @v
+ ar => ā / _ $
+ ār => ā
+ sś => š
+ itūs => ītus
+ eu => au
+ b => w / @v _ @v
+ Then: uw => ug / @v _ @v
+ h => * / @v _ @v
+ Then: uū => ū
+ os => as / _ $
+ ūu => au
+ āā => ār / _ $
+ ul => a / @c _ $
+ Then: sb => ps / @v _ @v
+ u => w / @v _ @v
+ ss => š
+ o => a / _ $
+ tn => dn
+ ēs => is / _ $
+ sn => ns
+ tb => tw
+ tś => č
+ īu => ī
+ ur => s / @c _ $
+ tk => k
+ h => *
+ owu => au
+ ts => s
+ aa => ā
+ ui => u
+ Then: uw => ug / @v _ @v
+ j => i / @v _ // _ @v
+ ēu => au
+ šś => š
+ ii => ī

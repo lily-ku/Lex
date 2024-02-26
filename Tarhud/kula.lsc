@@ -1,0 +1,24 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, ʼ, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, c}
+Class v {a, i, u, ə, o}
+
+v:
+    ə => o
+
+c:
+    h => *
+    q => k
+    ʼ => h
+    l => n / _ @c
+    {ss, ff} => hh
+    w => v
+    ly => yy
+    Then: nl => l
+    Then: n @c$1 => $1 $1
+    Then: {ss, ff} => hh
+    Then: h => * / $ _
+    ms => mp
+    {kk, pp, k, p} => {k, p, g, b}
+    f => v
+    Then: vv => v
+    xx => hh
+    x => *

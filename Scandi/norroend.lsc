@@ -1,0 +1,78 @@
+Class c {p, t, c, q, b, d, g, m, n, l, r, h, s, w, v, k, f}
+Class v {a, e, i, o, u, á, é, í, ó, ú, æ, ø, å, ò, â, ý, y, ä, ö, j}
+
+v-muts:
+ e => iæ / $ @c? _ @c
+ ja => æ / $ @c _ @c
+ a => æ / $ _ @c @c
+ ú => u
+ é => iæ
+ ei => e
+ i => æ / @c _ $
+ á => å
+ hve => u / $ _ n @v
+ ar => å / @c _ @c
+ ar => å / _ $
+ ò => a
+ ur => e / _ $
+ ír => e / _ $
+ ir => e / _ $
+ jó => ø / @c _ @c
+ ó => o
+ í => ij / @c _ @c
+ ý => y
+ ey => ju
+ au => ju
+ Then: å => ā
+
+c-muts:
+ th => d / $ _ @v
+ t => d / _ $
+ k => g / _ $
+ f => v / @v _ @v
+ r => a / l _ $
+ Then: r => * / @c _ $
+ kk => ck
+ thr => tr / $ _
+ th => d / @v _ $
+ Then: th => d / @v _ @v
+ thk => ck / _ $
+ ack => æck / _ $
+ f => w / _ $
+
+v-muts-2:
+ ju => y / @c _ @c
+ ā => å
+ iæ => jä
+ ø => ö
+ ag => å
+ æ => ä
+ Then: ä => e / @c _ $
+ í => i / _ @c @c
+
+c-muts-2:
+ sd => st
+ t => d / @v _ @v
+ yja => y / _ $
+ hl => l
+ hr => r
+ p => b / @v _ @v
+ dj => dd / @v _ @v
+ ggj => gg / @v _ @v
+ thv => tv
+ gj => gg / @v _ @v
+ rj => r
+ lj => ll / @v _ @v
+ tn => tten / _ $
+ att => ätt / @c _ @v
+ rth => rd / _ $
+ td => tt
+ tt => t / _ $
+ fn => mn / _ $
+ pt => ft
+ gjä => gä / $ _
+ íu => jo / _ $
+ pn => ben / _ $
+ rth => rd / @v _ @v
+ og => ow / _ $
+ og => ow / @c _ @c

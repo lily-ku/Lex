@@ -1,0 +1,18 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, Ɂ, ŋ, h}
+Class v {a, u, i, ã, ũ, ĩ, ɨ, e}
+
+c:
+  j => y
+  h => j
+  k => c / _ {a, o, u, ã, õ, ũ}
+  w => hu / _ {a, i, e, ã, ĩ, ẽ}
+  w => b / _ {u, o, ũ, õ}
+  ŋ => ng
+  Ɂ => ʼ
+  {p, m} => o / _ $
+  ns => z
+
+v:
+  u => * / $ _ @c
+  e => a / $ _
+  Then: {huio, huao} => {hue, bo}

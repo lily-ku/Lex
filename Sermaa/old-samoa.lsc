@@ -1,0 +1,81 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ñ, ş, ņ, ţ, ḑ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, ə, y, å, ë}
+
+v:
+ i => * / @v @c? @c _
+ ü => i
+ ui => i
+ uui => ii
+ i => ë / $ @c? @c? _
+ a => ä / _ $
+ ä => e
+ a => å
+ ei => eə
+ uu => uə
+ ee => i
+ oo => oə
+ e => ə / _ $
+
+c:
+ s => t / _ {a, o, u, å}
+ ts => c
+ us => * / @v @c? @c _ $
+ r => j / _ @c
+ v => w
+ {k, s} => * / _ @c
+ ni => ń / _ $
+ tt => t
+ os => * / @v @c? @c _ $
+
+p:
+ åä => oə
+ ej => äj
+ Then: woə => wə
+ åå => åə
+ eeə => iə
+ Then: åəi => öə
+ ee => ä
+ w => ŋ / _ $
+ es => ə / @v @c? @c _ $
+ ei => iä
+ ui => i / _ $
+ Then: ji => j / _ $
+ eä => eə
+ Then: eəj => øj
+ uəj => øj
+ ui => i
+ åi => åə
+ oəi => øj
+ Then: {k, w, h, j} => * / @c @v _ i
+ i => j / @v _
+ Then: oə => ə / oə @c? @c _
+ tw => t
+ is => ø / _ $
+ tj => c
+ u => ə / _ $
+ ujje => øj
+ Then: äje => äj
+
+p2:
+ ø => ö
+ lw => ŋ
+ jj => r / @v _ @v
+ o => å / _ $
+ tk => k
+ ws => w
+ Then: w => ŋ / _ $
+ nuə => nn / @v ə _ $
+ h => k / _ $
+ ct => c
+ åə => a / _ @c? @c @v ə
+ ëijä => a
+ juj => i / $ _
+ tn => nn / _ $
+ i => j / @v _
+ wu => ŋ
+ j => * / @c _ @c
+ ij => äj
+ ujoə => oj
+ j => * / _ @v j
+ tb => p
+ s => t / _ $

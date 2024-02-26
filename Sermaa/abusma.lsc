@@ -1,0 +1,42 @@
+Feature voicing(unvoiced, voiced)
+Feature type(plosive)
+Feature area(labial, dental, velar)
+
+# Plosives
+Symbol p [unvoiced labial plosive]
+Symbol b [voiced labial plosive]
+Symbol t [unvoiced dental plosive]
+Symbol d [voiced dental plosive]
+Symbol k [unvoiced velar plosive]
+Symbol g [voiced velar plosive]
+
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, ṡ, ċ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ï}
+
+v:
+    u => * / _ $
+    er => i / _ $
+    ï => e
+    o => a / $ @c? _
+    o => * / @c _ $
+
+c:
+    gh => h
+    ṡ => r
+    i => ʲ / @c _ $
+    ts => č
+    nn => nʲ
+    rz => rr
+    rd => r / _ $
+    tn => n
+
+p:
+    zʲ => š
+    tʲ => č
+    mʲ => ñ
+    nʲ => ñ
+    hʲ => s
+    jur => e / @c _ $
+    ur => a / _ $
+    ja => e / @c _ @c
+    je => e / @c _

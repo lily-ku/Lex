@@ -1,0 +1,32 @@
+Class c {p, t, k, l, r, ǧ, s, w, m, n, c}
+Class v {a, e, i, o, u}
+
+v:
+  ee => ia
+  e => i
+
+c:
+  ǧ => q / _ $ // i _ $
+  ǧ => k / i _ $
+  w => v
+  ǧ => g / @v _ @v
+  r => q / _ $
+  cc => ts
+  ǧl => ll
+  c => s
+  qr => qq
+  ń => n
+  h => *
+
+p:
+  uji => ui
+  ii => iu
+  i => j / $ _ @v
+  iq => eq
+  uq => oq / _ // @v _
+  aq => oq / _ // @v _
+  á => a
+  ǧ => r / $ _
+  uur => oor
+  ur => or
+  Then: uiq => ueq

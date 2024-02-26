@@ -1,0 +1,21 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, h}
+Class v {a, u, i, ã, ũ, ĩ, o, e, â, ə}
+
+v:
+  ä => e
+  @v$1 => $1 $1 / _ p $
+
+c:
+  h => *
+  p => * / _ $
+  n => h / _ @c
+  ṯ => gh
+  ś => * / _ $
+  ś => r
+
+p:
+  ye => i / @c _
+  Then: y => * / @v _ @v
+
+v2:
+  ae => aa

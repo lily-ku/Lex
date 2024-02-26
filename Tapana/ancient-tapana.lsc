@@ -1,0 +1,11 @@
+Class c {b, d, g, p, t, k, q, h, m, n, ŋ, ñ, ṛ, ḍ, c, z, j, r, l, s}
+Class v {a, e, i, o, u}
+
+c:
+  ṛ => ḫ
+  h => *
+  ŋ => g
+  ḍ => d
+  ñ => z
+  c => š
+  j => z

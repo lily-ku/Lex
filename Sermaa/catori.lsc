@@ -1,0 +1,66 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, v, ţ, ş}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ă, ò, à, ā, è, ò}
+
+v:
+ ō => ò
+ u => o / _ $
+ i => e / _ $
+ ī => è
+ ā => a / _ $
+ ā => o
+ ū => u
+ 
+
+c:
+ sj => x
+ kʷ => g
+ w => v
+ āt => à / _ $
+ Then: r @c$1 => $1 $1 / @v _ @v
+ š => x / _ $
+ č => ce / _ $
+ òδò => u
+ gj => z
+ ir => i / _ $
+ mj => gn / $ _
+ eder => ià / _ $
+ oha => uo
+ j => i
+ k => c
+ mʷ => n
+ tʷ => d
+ sʷ => s
+ hʷ => g
+ pʷ => v
+ dʷ => g
+
+p:
+ ii => ì
+ ot => o / _ $
+ lc => cci / @v _ @v
+ lg => ggi / @v _ @v
+ ls => x / @v _ @v
+ ln => gn / @v _ @v
+ lm => gn / @v _ @v
+ Then: ie => i
+ ti => z / @v _ @v
+ òt => ù / _ $
+ r => * / @v _ $
+ èr => i / _ $
+ jj => ggi / @v _ @v
+ at => a / _ $
+ p => v / @v _ @v
+ h => * / $ _
+ oi => ui
+ ciè => cè
+ el => ai / @c _ @c
+ lp => pp
+ Then: it => z / @v _ @v
+ ut => o / _ $
+ sv => z / @v _ @v
+ u => o / _ $
+ lh => gl
+ tn => nt
+ δ => s
+ st => s / _ $
+ li => gl / @v _ @v

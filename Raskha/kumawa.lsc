@@ -1,0 +1,26 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ñ, f, b}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ɔ, ɛ, ɪ, a, ʊ, à, è, ì, ò, ù}
+
+v:
+    {òò, èè, ìì, ùù} => {ô, ê, î, û}
+    @v => * / _ $ // $ @c? @c _ $
+    èi => aa
+    ou => ô
+
+c:
+    g => w / _ $
+    bw => ʼb
+    jùg => ʼd
+    k => q / _ $
+    rr => l
+    s => * / _ $
+    j => z / _ $
+    Then: nc => nd
+    c => j / $ _
+
+p:
+    @v$1 => $1 $1 / _ @c @c? w $
+    Then: w => * / @c _ $
+    {aw, ew, iw, ow, uw, aaw, eew, iiw, oow, uuw} => {o, u, e, u, u, oo, uu, ee, uu, uu} / _ $
+    nq => m
+    * n => a n / @c _ $

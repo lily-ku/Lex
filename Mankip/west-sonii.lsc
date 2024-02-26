@@ -1,0 +1,17 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, h}
+Class v {a, u, i, ã, ũ, ĩ, o, e, â, ə}
+
+v:
+  o => u
+  ee => o
+  e => * / @v @c @c? _ $
+  e => a
+  Then: u => i / _ $
+  aa => ua
+  ii => ey / @c _ @c
+  ii => ee / _ $
+
+c:
+  m => * / _ $
+  s => t / _ $
+  ss => gh

@@ -1,0 +1,17 @@
+Class v {a, i, u, ə, o}
+Class c {m, n, ń, ŋ, p, t, k, q, c, v, ð, ɣ, r, l, j}
+
+v-muts:
+ jo => i
+ Then: i r => ii * / _ @c
+ ija => e
+ o => u / _ $
+ aa => o
+ a => * / @v @c? @c _ $
+
+c-muts:
+ rm => mp
+ nn => ng
+ j => i / @v _ // i _
+ g => v / @v _ @v // {i, e} _ {i, e}
+ n => * / @v _ $

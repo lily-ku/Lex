@@ -1,0 +1,20 @@
+Class c {b, d, g, h, x, s, r, l, c, j, k, n, m, ŋ, y, ŕ, ç, ĺ}
+Class v {a, e, i, o, u, ï, ü, ö}
+
+v:
+  ü => i / _ {l, r}
+  ü => i / _ $
+  e => ï / {a, o, u} @c @c? _
+  i => ye / $ _
+  u => wa / $ _
+
+c:
+  ŋg => ŋ
+  {d, j, n} => y / $ _
+  x => s
+  c => ç
+  Then: j => c
+  {l, r, z} => * / $ _
+  {sk, gn} => x
+  g => ŕ / _ $
+  l => ĺ / _ $

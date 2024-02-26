@@ -1,0 +1,73 @@
+Feature voicing(unvoiced, voiced)
+Feature placing(velar, labial, uvular)
+Feature manner(stop)
+
+Symbol p [unvoiced labial stop]
+Symbol k [unvoiced velar stop]
+Symbol g [voiced velar stop]
+Symbol q [unvoiced uvular stop]
+
+Class v {a, e, i, o, u}
+Class c {p, t, s, k, n, m, h, l, r, c, q, ch, g, y}
+Class l {r, l, s}
+Class n {n, m}
+Class fv {e, i}
+
+v-muts:
+ ui => ve / @c _ // _ $
+ ai => ea
+ ee => ie
+ ei => e
+ ii => ai
+ o => a / _ $
+ uu => u
+ aa => e
+ ui => i / _ $
+ oo => u
+ oi => oa
+ ao => o
+
+c-muts:
+ h => k / @v _ @v
+ h => k / $ _
+ c => č
+ h => *
+ r => l / $ _
+ d => r / @v _ @v
+ n => * / _ $
+ n => * / $ _ @c
+ @n @n$1 => $1 *
+ s => z / @v _ @v
+ q => k
+ p => * / $ _ @c
+ ng => n / _ $
+ ng => m / @v _ @v
+ p => v / $ _ @v
+ k => * / $ _ @c
+ r => * / @c _ $
+
+assimilation:
+ [unvoiced stop] => p / _ m
+ [voiced stop] => b / _ m
+
+degemination:
+ @c$1 $1 => $1 *
+
+gemination:
+ ch @c$1 => $1 $1
+
+post:
+# any sound change that didn't work before will be placed here so that it does
+ ky => ch
+ q => k
+ uu => u
+ k => t / _ $
+ @l => * / $ _ @c
+ @c @c$1 => $1 * / $ _
+ uyi => ui
+ gy => j
+ eye => ie
+ y => * / @v _ i
+ y => * / @fv _ @v
+ č => ch
+ aa => o / _ $

@@ -1,0 +1,77 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ņ, ñ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ}
+
+v:
+ ė => i
+ Then: ii => ie
+ ü => e
+ uo => ū
+ y => u
+ au => a / _ $
+ ĕ => a
+ Then: ai => ie
+ ă => a
+ ö => u
+
+c:
+ b => v / @v _ @v
+ nv => m
+ as => s / @v @c? @c _ $
+ us => s / @v @c? @c _ $
+ @c$1 $1 => $1 *
+ ht => št
+ b => g / @v _ @v
+ ñ => ņ
+ d => z / _ i
+ h => * / $ _
+ ji => ī
+ lh => s
+ š => s
+ ž => z
+ w => * // $ _
+ w => v
+ h => s / _ $
+ r => * / _ $
+ d => * / _ $
+ mb => p
+ hj => s
+ hp => v
+
+p:
+ elņ => ieņ
+ ul => a
+ ng => gn
+ al => a / _ $
+ es => s / @v @c? @c _ $
+ ie => i / _ $
+ f => v
+ ie => je / $ _
+
+p2:
+ @v$1 => $1 $1 / _ @c? @c ū $
+ Then: ū => * / @v @c? @c _ $
+ Then: nd => n / _ $
+ Then: {aa, ee, ii, oo, uu} => {ā, ē, ī, ō, ū}
+ ua => ū
+ z => s / _ $
+ asb => auz
+ el => e / _ $
+ ao => au
+ ñ => ņ
+ čie => cie
+ eh => ē / _ v
+ eīe => īe
+ zika => ska / _ $
+ zima => zma / _ $
+ o => a / _ $
+ nk => kn
+ Then: iē => īe
+ nd => dn / @v _ @v
+ bs => vs
+ ea => ē
+ np => m
+ uhi => ai
+ iu => ie
+ hk => ķ
+ tika => ška / _ $
+ kida => šta / _ $

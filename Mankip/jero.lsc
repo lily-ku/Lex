@@ -1,0 +1,38 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, h, j}
+Class v {a, u, i, ã, ũ, ĩ, o, e, â, ə}
+
+v:
+  ea => àà / {b, d, g, j, z, m, n} _
+  ea => áá / {p, t, k, s} _
+  ea => ââ / {h} _
+  ea => ãã / x _
+  ea => aa
+  au => òò / {b, d, g, j, z, m, n} _
+  au => óó / {p, t, k, s} _
+  au => ôô / {h} _
+  au => õõ / x _
+  au => oo
+  {a, e, i, o, u} => {à, è, ì, ò, ù} / {b, d, g, j, z, m, n} _
+  {a, e, i, o, u} => {á, é, í, ó, ú} / {p, t, k, s} _
+  {a, e, i, o, u} => {â, ê, î, ô, û} / {h} _
+  {a, e, i, o, u} => {ã, ẽ, ĩ, õ, ũ} / x _
+
+c:
+  sn => nh
+  mp => ng
+  {ts, dz} => {sh, zh}
+  č => ch
+  hw => ʼ
+  m => p / _ $
+  n => * / _ $
+  x => ʼ
+  f => m / $ _
+  f => h
+
+tones:
+  ò => ó / _ h
+  Then: h => * / _ $
+  óu => ô
+  òu => õ
+  nn => ng
+  ôu => ôô

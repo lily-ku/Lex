@@ -1,0 +1,20 @@
+Class v {a, i, u, ə}
+Class c {m, n, ń, ŋ, p, t, k, q, c, v, ð, ɣ, r, l, j}
+
+v-muts:
+ ə => o
+ a => o / $ @c? @c? _
+ aj => aa
+ ua => uu
+
+c-muts:
+ q => k
+ l => r
+ Then: r => * / _ $
+ ń => j
+ ŋ => g
+ ð => v
+ c => t
+ ɣ => *
+ tn => nn
+ pm => mm

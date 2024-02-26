@@ -1,0 +1,19 @@
+Class c {m, n, tʼ, t, d, kʼ, k, g, qʼ, q, j, w, ŋ, δ, x, ʼ}
+Class v {a, o, u, ā, ō, i}
+
+v:
+    u => ô / _ $
+    Then: {a, o, u} => {o, a, a}
+    Then: (
+        {aj, aw} => {ā, ō}
+        {uj, uw} => {ai, ō}
+        {oj, ow} => {ai, ō}
+        ô => o
+    )
+
+c:
+    q => x // _ ʼ
+    qʼ => ʼ
+    {t, k, d, g} => {d, g, δ, ŋ}
+    Then: {dʼ, gʼ} => {t, k}
+    j => i / _ $

@@ -1,0 +1,14 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, č, ǰ, c, j, ñ, ḍ, ḷ}
+Class v {a, i, u, ə, o}
+
+v:
+    o => ə / _ $
+    Then: @v$1 => $1 $1 / _ @c @c? ə $
+    Then: ə => * / _ $
+
+c:
+    {c, j} => {s, z}
+    ll => ḷ
+    l => r̃ / _ @c
+    l => r̃ / _ $
+    rd => ḍ

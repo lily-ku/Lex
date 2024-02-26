@@ -1,0 +1,94 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ņ, ñ, x}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, é, ó, è, ú}
+
+v:
+ ėi => jo
+ ė => è
+ au => ei
+ yy => è
+ y => e
+ ü => i
+ ö => u
+ ĕi => e
+ ĕ => a
+ uo => ou
+ o => * / _ $
+ a => * / _ $
+ u => * / _ $
+
+c:
+ j => y / $ _
+ j => i
+ w => *
+ ñ => z
+ dd => z
+ hk => c'h
+ {g, d} => z / _ {i, $}
+ nk => g
+ mm => v
+ š => h
+ Then: zz => j
+ dh => z
+ č => t
+ s => * / _ $
+ bb => w / @v _ @v
+ ht => zh
+ gg => c'h
+ aa => è
+ h => *
+ ž => zh
+ ka => g / _ $
+ tt => h
+
+p:
+ ia => ie
+ io => eu
+ ei => é
+ kida => zh / $ _ $
+ np => ñ / _ $
+ èun => èñ
+ n => ñ / @v _ @c // _ n
+ Then: éé => ê
+ el => où / _ {$, @c}
+ i => y / @v _ $
+ ă => * / _ $
+ ă => a
+ il => eu / _ {$, @c}
+ kk => h
+
+p2:
+ {du, gu} => w / _ $
+ gz => c'h
+ bb => ou / @v _ $
+ uñ => oñ
+ sv => zv
+ au => aou
+ èè => aou
+ h => * / _ $
+ ul => ou / _ {$, @c}
+ al => a / _ {$, @c}
+ ir => i / _ $
+ c' => c'h / _ {$, @v}
+ im => eñ / _ $
+ ao => aou / _ $
+ pp => f
+ sl => lh
+ dl => lh
+ mb => ñg / _ $
+ ao => aou / @c _ @c
+ ar => a / _ $
+ er => * / @c _ $
+ Then: eou => eo
+ i => y / @v _ @v
+ dm => gn
+ eè => ê
+ oo => ou
+ sd => zh
+ h => c'h / _ $
+ nn => gn / @v _ @v
+ ss => ch
+ ii => î
+ eeuu => eü
+ ae => ê
+ igu => eu / @c _ @c
+ Then: iye => è

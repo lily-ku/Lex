@@ -1,0 +1,13 @@
+Class c {p, t, k, ñ, n, m, r, l, h, s, c, w}
+Class v {a, e, i, o, u}
+
+v:
+  o => a / _ @c? $
+
+c:
+  {t, k} => {s, ch} / _ i
+  ñ => j
+  {kh, ph, th, ch} => {k, p, t, s}
+  Then: sos => ss / @v _ @v
+  s => i / _ $
+  t => k / _ $

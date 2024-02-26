@@ -1,0 +1,65 @@
+Class c {p, t, k, b, d, g, z, s, n, m, h, l, r, w, v, j, c}
+Class v {a, e, i, o, u, ạ, ẹ, ọ}
+Class b {ea, ia, ai, au, ua}
+Class n {a, e, i, o, u}
+
+v:
+  ạ => e
+  ọ => u
+  ẹ => i
+  Then: {aa, ee, ii, oo, uu} => {ea, ia, ai, au, ua}
+  Then: a => * / @c _ $
+
+c:
+  j => y
+  tz => s
+  r => * / _ $
+  Then: sy => c
+  w => b / $ _
+  z => s
+  sm => mp
+  sn => ng
+
+p:
+  @b => @n / @b @c? @c? _
+  @b => @n / _ {m, ng}
+  ea => ya / _ $
+  l @c$1 => $1
+  uawe => uai
+  uawi => uaya
+  {b, p} => h / @v _ @v
+  elua => awa
+  d => t / _ $
+  nu => ng / @v _ $
+  rw => r
+  ai => ay / _ $
+  Then: r @c y => * @c y
+  aiwi => ayu
+  rg => ng
+  os => * / @c _ $
+  aih => ayah
+  b => p / _ $
+  sk => c
+  ry => j
+  us => u / @c _ $
+  ly => j
+  tk => c
+  @b r => @b * / _ @c
+  ts => c
+  i => y / @v _ $
+  tw => p
+  iw => o / _ @c
+  tyy => c
+  Then: @b => @n / @b @c? @c? _
+  tn => ng
+  ia => ya / _ $
+  ty => c
+  tg => j
+  sw => k
+  Then: ty => sy
+  Then: oe => a
+  enge => ang / _ $
+  b => m / @v _ @v
+  Then: uawi => uaya
+  as => a / _ $
+  rh => r

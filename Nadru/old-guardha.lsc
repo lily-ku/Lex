@@ -1,0 +1,16 @@
+Class c {p, t, k, b, d, g, pʰ, tʰ, kʰ, bʰ, dʰ, gʰ, kʷ, gʷ, s, z, r, l, n, m, ṣ, ṛ, w, ʔ, ʔʷ, h, ḥ, y, v}
+Class v {ǝ, a, e, i, o, u, ā, ē, ī, ō, ū}
+
+v:
+  ǝ => i
+
+c:
+  ʔ => *
+  {b, d, g} => {v, dh, gh}
+  {ṣ, ṇ, ṃ, ṛ, ḷ} => {sa, na, ma, ra, la}
+  Then: {p, t, k} => {b, d, g}
+  Then: {bʰ, dʰ, gʰ, vʰ, dhʰ, ghʰ} => {p, t, k, p, t, k}
+  Then: {gʷ, ghʷ} => {ku, gu}
+  ḥ => *
+  y => z / $ _
+  ʷ => w / $ _

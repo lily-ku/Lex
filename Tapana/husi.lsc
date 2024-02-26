@@ -1,0 +1,20 @@
+Class c {p, t, k, ñ, n, m, r, l, h, s, c, w}
+Class v {a, e, i, o, u}
+
+v:
+  o => u // $ @c? _
+  Then: uy => e
+  Then: uw => a
+  @v$1 h => $1 $1 / _ $
+  e => a / $ @c? _
+
+c:
+  kh => h // _ $
+  kh => k / _ $
+  ph => w // _ $
+  th => t
+  ñ => y
+  s => i / @v _ $
+  @v$1 ch @v$2 ch => $1 r ch
+  c => ch
+  Then: chh => ch

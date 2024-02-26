@@ -1,0 +1,18 @@
+Class v {a, i, u, ə}
+Class c {m, n, ń, ŋ, p, t, k, q, c, v, ð, ɣ, r, l, j}
+
+v-muts:
+ ə => i
+
+c-muts:
+ ɣ => k
+ ń => n
+ ŋ => n
+ l @c$1 => $1 $1
+ @v$1 l => $1 $1 / _ $
+ c => s
+ ð => v
+
+post:
+ l @c$1 => $1 $1
+ r @c$1 => $1 $1

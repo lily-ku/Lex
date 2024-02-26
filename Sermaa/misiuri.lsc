@@ -1,0 +1,43 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ñ, f}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, y}
+
+v:
+ {a, u} => {e, y} / _ @c? @c? i
+ {e, o} => ö / _ @c? @c? i
+ * => a / m _ k
+ ă => u
+ {ii, üü, ee, öö, aa} => {öi, oi, öe, öe, ua} / {b, p, m} _
+ {ii, üü, ee, öö, aa} => {wi, wü, ue, uö, ua} / {k, g} _
+ {ee, öö, aa} => {ei, öi, ai} / {r, s, t, n, d} _
+ @v$1 z => $1 $1 s
+
+c:
+ @c => * / _ $ // @c _
+ @c$1 $1 => $1 / _ $
+ j => * / _ i
+ tst => st
+ {p, pp, tt} => {bh, ph, th} / @v _ @v
+ {k, kk} => kh / @v _ @v
+ r => * / t _
+ r => * / _ t
+ bd => db
+ {w, r, l} => * / {t, d} _ @v
+ z => s
+ ü => i
+
+p: 
+ @v$1 m => $1 $1 v / _ @v
+ Then: öö => ey
+ Then: {ii, yy} => ee
+ Then: uu => oo
+ ts => s
+ uo => oo
+ ds => dz
+
+romanizer:
+ aa => ā
+ ee => ē
+ ii => ī
+ oo => ō
+ uu => ū
+ yy => ȳ

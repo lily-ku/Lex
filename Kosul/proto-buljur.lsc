@@ -1,0 +1,14 @@
+Class c {b, d, g, h, x, s, r, l, c, j, k, n, m, ŋ, y}
+Class v {a, e, i, o, u, ï, ü, ö, ä}
+
+v:
+  ï => u
+  {a, e, i, o, u, ö, ü} => {o, a, e, u, u, ä, i}
+
+c:
+  b => w
+  k => q / _ {a, o, u}
+  c => ts
+  {y, j} => {j, y}
+  Then: {a, e, i, o, u, ä} ŋg => {ã, ẽ, ĩ, õ, ũ, ẽ} g
+  l => m / _ $

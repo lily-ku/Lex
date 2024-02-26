@@ -1,0 +1,31 @@
+Feature +nasal, +long
+
+Diacritic ̃ [+nasal]
+Diacritic ː [+long]
+
+Class v {a, e, ɛ, u, ʊ, o, i}
+Class c {θ, n, b, t, k, s, l, j, d, z, ʃ, t͡ʃ, w, ʋ, r, g, p, ʒ, d͡ʒ, m, c, f, ɣ}
+
+v-muts:
+ i => ʲ / @c _ $
+ u => * / $ _ @c
+ u => * / @c _ $
+ @v n => [+nasal] * // _ @v
+ el => a / _ $
+ ija => iː
+ ej => i
+
+c-muts:
+ p => m / $ _
+ r @c$1 => $1 $1
+ v => b
+ h => * / @v _ @v
+ q => x / _ $
+ g => ɣ / @v _ @v
+ @c j => [+long] *
+ st => θ
+
+post:
+ @v$1 $1 => [+long] *
+ @v s => [+long] * / _ $
+ @v h => [+long] * / _ $

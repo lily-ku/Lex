@@ -1,0 +1,15 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w}
+Class v {a, u, i, ã, ũ, ĩ}
+
+v:
+  {ã, ũ, ĩ} => {aa, uu, ii}
+
+c:
+  {ṭ, ḍ, ṣ, j} => {č, j, š, š}
+  Then: ñĝ => ĝĝ
+  ñ => y
+  Then: ĝ => w
+  Then: sč => hš
+  z => r
+  Then: n @c$1 => k $1 / @v _ @v
+  ts => č

@@ -1,0 +1,32 @@
+Class c {b, d, g, h, x, s, r, l, c, j, k, n, m, ŋ, y, ŕ, ç, ĺ, ğ}
+Class v {a, e, i, o, u, ï, ü, ö, ı}
+
+v:
+  ï => a / $ _
+  ï => ı
+  Then: i => ı / {ı, a, u, o} @c @c? _
+  u => ü / {i, ü, ö} @c @c? _
+  Then: u => a / _ $
+
+c:
+  {ĺ, ŕ} => {ş, z}
+  w => v
+  l => * / _ @c
+  bk => ğ / @v _ @v
+  bç => c
+  x => ğ
+  rg => ğ
+  Then: ığı => ağa
+  gi => z / @v _ $
+  b => v / @v _ @v
+  b => v / @c _ @v
+  ŋ => n
+  e => i / @c _ $
+  Then: yı => i
+  Then: avı => o
+
+p:
+  a => e / {i, ü, ö} @c @c? _
+  o => i / {i, ü, ö} @c @c? _
+  nk => n
+  d => y / _ i

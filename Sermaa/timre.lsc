@@ -1,0 +1,83 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, š, ś, č, f}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, î}
+
+v:
+ ẹ => i
+ aa => e
+ Then: ii => a
+ ọ => a
+ ạ => i
+ Then: ii => a
+ ee => i
+ uu => a
+ oo => u
+
+c:
+ h => *
+ s => t / $ _
+ k => h
+ p => f
+ b => p
+ g => k
+ t => h
+ d => t
+ r @c$1 => $1 r / @v _ @v
+ @c$1 @v$2 r => $1 r $2 / _ $
+ lw => kw
+ Then: k => sh / _ {i, e}
+ z => * // $ _
+ h => * / _ $
+ Then: hr => kh
+ j => y
+ r => a / @c _ $
+
+p:
+ @c$1 @v$2 r => $1 r $2 / _ $ // y _
+ Then: hr => kh
+ rsh => shr / @v _ @v
+ ew => o
+ aa => e
+ lh => sh
+ u => * / @c _ $
+ Then: eh => ei / _ $
+ ln => n
+ lk => kh
+ hy => sh
+ wr => fr
+ ly => j
+ hw => f
+ s => * / @v _ $
+ skh => sr
+ yr => r
+ lt => sh
+ @v$1 l => $1 $1 / _ @c
+ iyi => ai
+ ihi => ai
+ u => w / _ @v
+ nrr => nra / _ $
+ Then: ii => a
+ rh => kh
+ Then: wu => wo
+ hh => kh
+ ae => ai
+ hp => f
+
+p2:
+ r @c$1 => $1 r / @v _ @v
+ ehi => ei
+ hsr => shra / _ $
+ rr => r
+ hiha => ya
+ nr => ng / _ $
+ mr => ng / _ $
+ ohi => oi
+ uhi => wi
+ oo => u
+ ee => ei
+ uha => wa
+ kkh => kr
+ rur => ra
+ uu => a
+ iu => yu
+ Then: yy => y
+ hkr => kr

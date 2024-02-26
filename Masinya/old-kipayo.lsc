@@ -1,0 +1,13 @@
+Class c {m, n, p, b, t, d, c, j, k, g, ʼ, s, z, ṣ, h, y, w, r, l, č, ṛ}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū, ä, ï, ü}
+
+v:
+    @v$1 => $1 $1 / _ @c? @c {o, u} $
+    a => i / _ $ // @v _ $
+    aa => a / _ $
+    e => a / $ _
+    e => a / _ $
+
+c:
+    hw => f
+    my =>  ny

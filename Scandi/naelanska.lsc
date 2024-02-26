@@ -1,0 +1,108 @@
+Class c {p, t, c, q, b, d, g, m, n, l, r, h, s, w, v, k, f}
+Class v {a, e, i, o, u, á, é, í, ó, ú, æ, ø, å, ò, â, ý, y}
+
+v-muts:
+ au => ø / @c _ @c
+ Then: au => ø / $ _
+ ei => e
+ ey => jø
+ og => âw / @c _ @c
+ ag => âw / @c _ @c
+ og => o / $ _ $
+ ú => u
+ ja => a / @c _ $
+ e => æ / @c _ r
+ øw => æw
+ jó => jy / $ _
+ jó => y / @c _ @c
+ ji => je / _ $
+ á => å
+ óg => âw / _ $
+ uwa => âwa / _ $
+ est => æst
+ é => æ
+ hve => o / $ _ n @v
+ ò => â
+ ó => o
+ ang => ång
+ í => i
+ yng => øng
+ ý => y
+ ekk => ækk
+
+c-muts:
+ ek => æ / $ _ $
+ f => w / @v _ @v
+ p => b / @v _ @v
+ ngj => ng
+ gj => j
+ r => * / @c _ $
+ th => t / $ _ y
+ Then: th => d / $ _ @v
+ v => w / @c _ @v
+ nn => nnj
+ f => w / _ $
+ tn => nn
+ ll => llj
+ ld => llj
+ t => d / @v _ @v
+ ng => nnj / {e, æ} _
+ Then: th => d / @v _ @v
+ Then: th => d / _ $
+ t => d / _ $
+ egi => ej
+
+post:
+ ennj => innj
+ allj => ållj
+ ennj => ænnj
+ denk => tenk / $ _
+ enk => eng
+ nd => nnj / @v _ @v
+ ess => æss
+ ekk => ikk / _ $
+ Then: kk => kj / _ $
+ gg => gj / _ $
+ hw => hv
+ ur => * / @c _ $
+ jar => jer / _ $
+ th => t / $ _ @c
+ ír => ij
+ ir => e / _ $
+ imm => em / _ $
+
+post-2:
+ kk => g / _ $
+ ji => je / _ $
+ sd => st
+ kd => kt
+ p => b / _ $
+ egj => ægj
+ wu => w / @v _ @c
+ ânnj => ånnj
+ nd => nn
+ k => g / _ $
+ yja => ø
+ hl => l
+ jøja => jø / _ $
+ ow => âw
+ imm => æmm / @c _ @v
+ omm => åmm
+ rf => r / @v _ @v
+ ju => y / @c _ @c
+ k => g / @v _ @v
+ hr => r
+ aga => âga
+ rjø => rø
+ øma => ømma
+ ellj => ællj
+
+post-3:
+ lw => ll
+ ell => æll
+ ja => æ / @c _ @c
+ eg => æj / _ $
+ rjâ => ry
+ yw => æw
+ rtha => rde / _ $
+ gs => ss / @v _ @v

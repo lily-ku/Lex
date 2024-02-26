@@ -1,0 +1,14 @@
+Class c {p, t, k, s, ṣ, ẓ, m, n, g, d, z, b, h, w, j, l, r, y, c}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ā}
+Class r {r, w, l, u, k, g, i}
+
+v:
+  ā => o
+
+c:
+  {j, jh} => z
+  Then: zh => z
+  ṇ => n
+  ṭ => t
+  ḍ => d
+  Then: zz => x

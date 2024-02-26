@@ -1,0 +1,20 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ḡ, ḏ, ṯ, ẕ}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ə, ɔ, ô, ê}
+
+v:
+    aa => uo
+    əə => {a}
+    əe => {e}
+    ə => i // _ @v
+    ao => oo
+    {ii, ea, ei} => ia
+    ɔ => ô
+    ai => ê
+    eo => ô
+    ae => êê
+
+c:
+    f => p
+    k => g / @v _ @v
+    {ḏ, ḡ, ẕ, x} => {th, h, r, k}
+    ŋ => m

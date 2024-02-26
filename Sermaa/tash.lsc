@@ -1,0 +1,105 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō}
+Class r {r, u, k, i}
+
+v:
+ ẹ => a
+ Then: aa => ē
+ o => u / _ {n, m}
+ e => i / _ {n, m}
+ e => a
+ Then: aa => ē
+ ạ => e
+ ọ => a
+ Then: aa => ē
+ il => ē / _ $
+ Then: ee => ē
+ uu => o
+
+pre:
+ j => y
+
+c:
+ h => *
+ s => h
+ k => k'
+ g => k
+ p => h
+ b => p // @v _ @v
+ b => w / @v _ @v
+ z => s
+ t => t'
+ d => t
+ lw => g
+ Then: uh => * / @c _ $
+ h => k' / _ $
+ rs => ṙ
+ t'w => k'
+ tw => k
+ ky => č'
+ rw => ṙ
+ lk' => č'
+ lk => č
+ ln => ǰ
+ Then: w => v
+ ls => š
+ t'y => č'
+ ly => ǰ
+ t's => c'
+ lp => b
+ ry => z
+ lm => n
+
+p:
+ t'r => d
+ t' => * / @v _ @v
+ gi => c / _ $
+ gi => c / $ _ @v
+ Then: g => k / _ $
+ au => aw
+ io => ay
+ aa => aw / _ $
+ aa => ay
+ ih => ay / @c _ @c
+ eo => aw
+ uh => o / @c _ @c
+ uh => o / ' _ @c
+ ooo => ō
+ oo => ō
+ lt => č
+ hēhē => xē
+ hh => x
+ hm => w
+ lhk' => č'
+ ēa => ēi
+ eye => ēi
+ t'n => n
+ lh => š
+ hp => v
+ hr => x
+ hi => s / @v _ @v
+ Then: hi => s / @v _ @v
+ t'p => tp
+ ai => e
+ t'h => x
+ ii => ē
+ t'k' => x
+ aē => ay
+ eah => ek' / _ $
+ rhi => ṙ / @v _ @v
+ Then: xi => š / @v _ @v
+ h => k' / _ $
+ r @c$1 => $1 r / @v _ @v
+ ht' => c
+ ia => i
+ ovu => ow / _ $
+ oi => ay
+ Then: hr => ṙ
+ ōi => ōy
+ ēvu => ēw
+ hy => š
+ ēhu => ēw
+ ou => ay
+
+words:
+ yēt' => ē / $ _ $

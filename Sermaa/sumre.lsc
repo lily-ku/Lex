@@ -1,0 +1,111 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ñ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ}
+
+pre:
+ m => b / $ _ {a, o, u}
+
+v:
+ ẹ => i
+ aa => ė
+ o => e / @c _ @c
+ {o, u, ọ} => {ö, ü, y} / _ {l, r}
+ il => ü
+ ạạ => ĕi / _ @c
+ ạạ => ĕi / _ $
+ ạ => ă
+ Then: ă => au / _ $
+ uu => uo / _ @c
+ uu => uo / _ $
+ ọọ => au
+ e => * / @c _ $
+ iir => ėi / _ $
+ ir => e / _ $
+ ee => i
+
+c:
+ jo => la
+ jọ => la // _ ln
+ jọ => y / _ ln
+ ln => ñ
+ n => m / _ $
+ r => n / _ @c
+ t => d / @v _
+ z => v / @v _ @v
+ ts => c
+ w => v
+ b => w / _ {a, o, u}
+ st => ht
+ Then: dj => č
+ Then: dz => č
+
+p:
+ ọ => a
+ nw => m
+ ii => ėi
+ Then: lg => gg / @v _ @v
+ lk => kk
+ lz => lh / _ $
+ lz => ž
+ lj => lñ
+ i => a / @c _ $
+ b @v b => w / $ _
+ idv => ėiv
+ nz => nn
+ nj => ñ
+ ă => u / $ @c? _ @c
+ lm => ñ
+ ėr => i / _ $
+ sj => hj
+ uül => yl
+ wu => u / $ _
+ nb => mb
+ ĕid => a / _ $
+ oo => u
+ sr => z / _ $
+ il => a / _ $
+ Then: uü => ü
+ oö => y
+ nm => mm
+ văr => f / @v _ $
+ ld => dd
+ dr => z / _ $
+
+p2:
+ ddu => g / _ $
+ žu => h / _ $
+ du => v / _ $
+ lñu => lh / _ $
+ ji => ėi / $ _
+ dn => nn
+ lt => tt
+ nu => m / _ $
+ jü => ü / $ _
+ ls => š
+ ku => f / _ $
+ ujuo => ăo
+ ir => e / _ $
+ lb => bb
+ ăr => * / @c _ $
+ ėa => ėė
+ db => bb
+ Then: sf => hf
+ ds => č
+ aha => ėė
+ dk => gg
+ ay => yy
+ sp => hp
+ Then: h @v$1 h => * $1 h
+ nh => ñ
+ ewu => au
+ ĕivu => au
+ Then: au => o / _ @c au
+ lp => pp
+ lg => gg
+ inn => ññ / @v _ @v
+ jĕ => a / $ _
+ dv => v
+ gu => b / _ $
+ ėvu => ėv
+ sk => hk
+ el => o / _ $
+ ĕilñ => ylñ

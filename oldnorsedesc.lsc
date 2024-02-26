@@ -1,0 +1,86 @@
+Feature +long
+
+Diacritic ː [+long]
+
+Class c {p, b, t, d, k, g, m, n, f, v, θ, ð, h, r, j, l}
+Class v {a, e, i, o, u, y, æ, ɔ, ø, ɛ, ɪ, ʊ, œ}
+
+# OLD
+
+v-muts:
+ ø => œ
+ ö => œ
+ y => œ
+ e => ɛ
+ u => y
+ ɔ => a
+ aː => ɔ
+ á => ɔ
+ i => ɪ
+ iː => i
+ í => i
+ oː => u
+ ó => u
+ uː => ʊ
+ ú => ʊ
+ yː => i₃
+ ý => i₃
+ eː => i₂
+ é => i₂
+
+v-muts-post:
+ ɛɪ => ɛː
+ ay => ɛɪ
+ ɛœ => ɛɪ
+
+c-muts:
+ r => ər / @c _ $ // r _
+ rr => r / _ $
+ ɪr => ər / @c _ $
+ k => ɣ / _ $
+ hv => v
+
+romanizer-phonetic:
+ unchanged
+
+# MODERN
+
+early-muts:
+ gj => j
+
+v-muts-2:
+ æ => ɛː
+ ɪ => ɛ / _ $
+ ju => œ // $ _
+ ja => ɛ // $ _
+ jʊ => œ // $ _
+
+c-muts-2:
+ ɣ => ʰ / @v _ $
+ rər => r / _ $
+ hl => l
+ hr => r
+ vn => mn
+ ɛɛ => ɛjɛ
+ ɛɪɛ => ɛjɛ
+
+romanizer-WPHON:
+ # vowels
+ ɛː => æ
+ ɔ => á
+ ɛɪ => ey
+ ɛ => e
+ ɪ => i
+ œ => ö
+ ə => e
+ u => ó
+ ʊ => ú
+ i₂ => é
+ i₃ => ý
+ i => í
+ y => u
+ #consonants
+ θ => þ
+ ʰ => g / _ $
+ v => f / _ $
+ ɣ => g

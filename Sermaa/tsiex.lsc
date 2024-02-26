@@ -1,0 +1,78 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ņ, ñ, x}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, é, ó, ú}
+
+v:
+ u => * / @c _ @c
+ aa => e
+ üng => ũ
+ {ö, ü, y} => e
+ ė => i
+ Then: ii => ie
+ en => ã / _ {$, @c}
+ er => é / _ {$, @c}
+ au => ó
+ uo => ú
+ ĕ => a
+ u => * / @v @c? @c _ $
+ ă => o
+ in => ã / _ {$, @c}
+
+c:
+ j => z
+ {ž, š} => r
+ z => dz // _ $
+ s => ts // _ $
+ z => ž / _ $
+ s => š / _ $
+ lv => vv
+ g => dž / _ {i, e}
+ nn => dn
+ mm => bm
+ b => w / @v _ @v
+ h => *
+ gg => x
+ Then: tt => s
+ Then: dkk => dg
+ lñ => ndz
+ d => r / _ $
+ g => x / _ $
+ ñ => nz
+ mb => m
+ kkk => kw
+ bb => vv
+ el => u / _ $
+ ol => a / _ $
+ dd => z
+ f => x
+ il => e / _ $
+ aw => ó
+ pp => ff
+ kk => x / @c _ @c
+ Then: nznz => ndz
+ k => tš / _ {i, e}
+
+p:
+ oo => ó
+ č => tš
+ kg => g / _ @c
+ kk => x / @v _ @v
+ @c$1 x => $1 a x / $ _ $
+ eã => ũ
+ gff => gf
+ tšida => dža
+ al => á / _ {@c, $}
+ iw => e
+ aa => e
+ wv => fw
+ tsts => tst
+ dš => dž
+ dts => dz
+ lr => re / _ $
+ w => v / _ @c
+ zš => ž
+ lw => ll
+ tsz => ts
+ dm => gm
+ nb => m / _ $
+ tsd => tst
+ kk => x / _ @c

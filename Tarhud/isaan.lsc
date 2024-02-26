@@ -1,0 +1,18 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, č, ǰ, c, j, ñ, ḍ, ḷ}
+Class v {a, i, u, ə, o}
+
+v:
+    {a, e, i, o, u} => {ã, ẽ, ĩ, õ, ũ} / _ r @c
+    Then: r => * / _ @c
+    @v$1 => $1 $1 / _ k $
+    Then: k => * / _ $
+
+c:
+    r̃ => r
+    rh => r
+    w => v
+    ñ => j
+    {sv, sk, st} => {z, kh, th}
+    rs => sh
+    {ḍ, ḷ} => {r, l}
+    sz => z

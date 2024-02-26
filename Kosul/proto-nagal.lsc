@@ -1,0 +1,12 @@
+Class c {b, d, g, h, x, s, r, l, c, j, k, n, m, ŋ, y}
+Class v {a, e, i, o, u, ï, ü, ö}
+
+c:
+  g => gh / @v _ @v
+  g => gh / _ $
+  x => gh / @v _ @v
+  b => w / @v _ @v
+  j => z
+  sk => x / @v _ @v
+  lc => yc
+  bc => wc

@@ -1,0 +1,19 @@
+Class c {b, d, g, h, x, s, r, l, c, j, k, n, m, ŋ, y}
+Class v {a, e, i, o, u, ï, ü, ö, ä}
+
+v:
+  ï => ä
+  ü => i / _ $
+
+c:
+  c => š
+  j => c
+  y => s
+  m => v / @v _ @v
+  m => v / @c _
+  b => m
+  Then: lš => j
+  k => ts / _ {e, i, ä, ü, ö}
+  ŋg => gg
+  sk => ts
+  g => y / @v _ $

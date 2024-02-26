@@ -1,0 +1,36 @@
+Feature +long, +palatal
+
+Diacritic ʲ [+palatal]
+Diacritic ː [+long]
+
+Class v {i, y, ɨ, u, e, ø, ə, o, a, ɛ, æ, ʊ}
+Class c {p, t, ʔ, ʃ, k, b, d, g, s, h, m, n, nʲ, ŋ, l, lʲ, r, rʲ, j}
+
+v-muts:
+ ɛ => æ
+ i => e
+ e => i
+ y => i / _ $
+ ɨ => ə
+ a => o / $ @c? _
+
+c-muts:
+ ŋr => r
+ ŋ => m
+ Then: n @v m => m / _ $
+ rʲ => j
+ k => tʃ / _ {i, e, y, ø, ɛ, æ}
+ g => j / _ {i, e, y, ø, ɛ, æ}
+ Then: jy => j
+ t => d / n _
+ k => ʔ / _ $
+ lʲ => z
+ b => v / @v _ @v
+ d => z / @v _ @v
+ g => * / @v _ @v
+
+post:
+ æj => iː
+ oː => u
+ ou => uː
+ uj => yː

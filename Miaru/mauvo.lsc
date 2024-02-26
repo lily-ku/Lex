@@ -1,0 +1,26 @@
+Feature +long
+
+Diacritic ː [+long]
+
+Class v {a, e, i, o, u}
+Class c {p, t, k, s, m, n, ŋ, f, h, r, l, w, ʔ}
+
+v-muts:
+ ia => ea
+ iu => ii
+ io => ee
+ a => * / @v @c _ $
+ uo => ua
+ i => e / _ $
+
+c-muts:
+ r => * / @v _ @v
+ w => v
+ h => *
+ k => h
+ t => k
+ f => h / $ _
+ f => v / @v _ @v
+ p => v
+ ʔ => '
+ ŋ => ng

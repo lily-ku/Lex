@@ -1,0 +1,13 @@
+Class c {m, n, tʼ, t, d, kʼ, k, g, qʼ, q, j, w, ŋ, δ, x, ʼ, z}
+Class v {a, o, u, ā, ō, i}
+
+v:
+    o => u / _ $
+    {ā, ō} => {aa, uu}
+
+c:
+    δ => z
+    ŋ => ng
+    g => u / $ _
+    nw => m
+    Then: w => u

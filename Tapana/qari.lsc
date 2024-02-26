@@ -1,0 +1,33 @@
+Class c {b, d, g, p, t, k, q, h, m, n, ŋ, ñ, ṛ, ḍ, c, z, j, r, l, s}
+Class v {a, e, i, o, u}
+
+v:
+  ï => i
+  ü => u
+  ä => a
+  ō => o'
+
+c:
+  h => *
+  k => q / {a, o, u} _
+  k => q / $ _
+  {g, b, d} => {k, p, t} / _ $
+  ŋ => n
+  ç => ch
+  a => o / _ l @c
+  ŕ => z
+  j => y
+  ń => j
+  ĺ => sh
+  Then: zig => sk
+  Then: zik => shk
+
+p:
+  k => kk / @v _ @v
+  q => qq / @v _ @v
+  uqt => o'tt
+  e => a / {q} _
+  uu => o'
+  uq => o' / _ @c
+  aw => a / _ $
+  j => z / _ $

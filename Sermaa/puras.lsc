@@ -1,0 +1,44 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, á, í, ú, ý}
+Class r {r, u, k, i}
+Class sv {a, e, i, o, u}
+
+v:
+ ā => á
+ ū => ú
+ ē => ě
+ ī => í
+ au => e
+ u => * / _ $
+
+c:
+ gi => ž / _ $
+ @c$1 @v$2 r => $1 r $2 // _ @sv
+ Then: @c$1 @sv$2 r @v$3 => $1 * r $3
+ il => ý / _ $
+ w => v
+ us => * / _ $
+ Then: g => y / @c _ $
+ as => s / _ $
+ ge => ja / $ _
+ Then: re => y / @c _ $
+ ni => j / @v _ $
+ is => y / _ $
+ Then: tv => dv
+ ś => s
+
+p:
+ áu => á
+ {s, m, n, z, r, l, š} r @v$1 => {s, m, n, z, r, l, š} $1 r
+ ts => c
+ vs => v / _ $
+ áe => jý
+ ri => ž / @v _ $
+ b => p / _ {s}
+ šs => š
+ ds => z
+ Then: {á, í, ú, ý} => {a, i, u, y} / _ @c? @c {á, í, ú, ý}
+ aja => ija
+ ja => y / @c _ $
+ i => * / @c _ $
+ Then: @c$1 n => $1 n y / _ $

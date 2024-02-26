@@ -1,0 +1,39 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ḡ, ḏ, ṯ, ẕ, ṣ, ḥ, v}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ə, ɔ, ā, ē, ī, ō, ū}
+
+v:
+    {ii, aa, ee, oo, uu, iu, eu, ou} => {ī, ā, ē, ō, ū, ē, ū, ō}
+    {ua, uã, iẽ, ãã, aũ} => {va, vā, yā, ā, au}
+    oi => ai
+    Then: {ã, ẽ, ĩ, õ, ũ} => {a, e, i, o, u}
+    Then: eu => ū
+    Then: {a, e, i, o, u} => {ā, ē, ī, ō, ū} / _ @c @c? a $
+    ea => ē
+    Then: eī => jyā / $ _
+    ei => ī
+
+c:
+    {k, g, x} => ḥ / _ $
+    ś => ṣ
+    @c$1 $1 => $1 h
+    xj => kṣ
+    ŋ => n
+    s => r / _ @c
+    xt => th
+    f => va / _ $
+
+p:
+    {aiḥ, īḥ} => {āyaḥ, aiyaḥ}
+    {eḥ, iḥ} => {āḥ, aḥ}
+    {k, g, p, b, v, h} @v$1 s => {k, g, p, b, v, h} * ṛ / _ $
+    {n, t, d, s, m} @v$1 s => {ṇ, ṭ, ḍ, ṣ, ṃ} * * / _ $
+    nin => ṇ / @v _ @v
+    {b, d, g} @v$1 h @v$2 => {b, d, g} * h $2
+    x => h
+    ou => ō
+    ui => ī
+    Then: ua => va
+    ie => ya
+    nv => m
+    Then: {g, k} @v {d, t} => kt // $ _
+    oi => ai

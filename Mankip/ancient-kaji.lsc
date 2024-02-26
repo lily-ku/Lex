@@ -1,0 +1,19 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, h}
+Class v {a, u, i, ã, ũ, ĩ, o, e, â, ə}
+
+v:
+  {ã, ũ, ĩ} => {au, ou, ea}
+
+c:
+  ts => č
+  j => h
+  nk => mp
+  {p, t, k, b, d, g} => {f, h, h, p, t, k}
+  ĝ => j
+  ns => ts
+  Then: f => * / _ $
+  {ṣ, ḍ, ṭ} => {hw, dz, ts}
+  ñ => n
+
+v2:
+  {au, ou, ea} => {a, u, i} / _ $

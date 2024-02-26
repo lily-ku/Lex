@@ -1,0 +1,48 @@
+Feature +long
+
+Diacritic ː [+long]
+
+Class v {a, e, i, o, u, ə, ě, ǔ, ǒ, ǐ, ö}
+Class c {q, k, x, r, n, m, d, t, l, ʔ, ġ, j, β, g, z, w, s, ś, h, ɸ}
+
+v-muts:
+ ə => e
+ ǔ => a
+ ě => e
+
+c-muts:
+ x => *
+ qq => χ
+ ś => h
+ ǒ => u
+ Then: w u => * [+long]
+ Then: q => g / @v _ @v
+ Then: q => g / @v _ [+long]
+ sj => ss
+ d => t / _ $
+ mʷ => w
+ l @c$1 => $1 $1
+ dʷ => g
+ q => *
+ ġ => j
+ ʔ => *
+ ǐ => i
+ β => m
+ ź => r
+ ɸ => w / @v _ @v
+ ɸ => h
+ Then: hh => χ
+
+doubling-and-post:
+ @v$1 $1 => [+long] *
+ @v s => [+long] * / _ @c
+ @c$1 r => r $1
+ e i => * [+long]
+ wh => f
+ i => j / $ _ @v
+ ew => u
+ ʷ => *
+ Then: u => w / @v _ @v
+ ʎ => l
+ e a => [+long] *
+ Then: h => * / @c _ $

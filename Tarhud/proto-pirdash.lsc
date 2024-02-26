@@ -1,0 +1,13 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, ʼ, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y}
+Class v {a, i, u, ə, o}
+
+v:
+    ə => o
+
+c:
+    {b, d, g, pʼ, tʼ, kʼ, p, t, k, sʼ} => {p, t, k, ʼ, ʼ, ʼ, f, s, h, t}
+    Then: ʼ @c$1 => $1 $1
+    @c$1 => ə $1 / @c _ @c
+    @c$1 => ə $1 / @c _ $
+    ś => s
+    ġ => y

@@ -1,0 +1,22 @@
+Class c {b, d, g, p, t, k, k', k, ł, č, ħ, n, m, r, w, l, s, z, q, ġ, ŋ, ṯ, ḏ, y, š, ǰ, ´}
+Class v {a, e, i, u, ə, o, æ, ĕ, ĭ}
+
+v:
+  æ => ĕ
+  ũ => ĭ
+  aa => åå
+  wa => å / @c _ @c
+
+c:
+  h => * / @v _ @v
+  ħ => x
+  f => m
+  kk => ḱ
+  gg => ǵ
+  bw => ww
+  Then: x => š / _ {i, e, ĕ, ĭ}
+  Then: x => š / {i, e, ĕ, ĭ} _
+  p => m
+  Then: g => ḡ / @v _ @v
+  Then: ǵ => ř / _ $
+  Then: ǰ => ř / _ $

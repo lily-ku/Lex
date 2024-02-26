@@ -1,0 +1,22 @@
+Class c {b, d, g, p, t, k, k', k, ł, č, ħ, n, m, r, w, l, s, z, q, ġ, ŋ, y, š, ṭ, ḍ, š}
+Class v {a, e, i, u, ə}
+
+v:
+  ə => i
+  uy => wi
+  ye => e / $ _ @c
+  ie => aya
+  ye => aya / _ $
+
+c:
+  y => z / $ _
+  ñ => y
+  {gw, hw} => w
+  {fy, ly} => {š, ř}
+  fw => h
+  f u ṭ => ṭṭ / @v _ @v
+  š u d => dd / @v _ @v
+
+p:
+  iyi => eye
+  eei => aya

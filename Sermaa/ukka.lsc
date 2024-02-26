@@ -1,0 +1,24 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, v}
+Class v {a, ạ, e, ẹ, ẹ, i, o, ọ, u, ọ̄, ̣ạ̄, ä, ē, ẹ̄, ee, ạ, ū}
+
+ifv:
+ ee => ie
+ Then: ie => i / _ $
+ ui => y / @c _ @c
+ ir => ie / $ @c? _ @c
+ or => uo / $ @c? _ @c
+ uui => ei / _ $
+ Then: iei => ii
+ aa => au / _ @c? @c aa
+ uu => o / _ $
+ aai => ää
+ uui => yy / @c _ @c
+ oo => u / _ $
+ oo => uo / @c _ @c
+
+ifc:
+ p => m / $ _
+ tj => tt
+ sj => ss
+ Then: tt => s / _ $
+ ts => tt

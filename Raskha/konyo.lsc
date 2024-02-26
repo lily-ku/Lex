@@ -1,0 +1,16 @@
+Class c {g, k, d, t, ś, r, n, m, x, ŋ, j, c, s, ŕ, y, w, ñ, f, l}
+Class v {a, o, u, i, e, ã, õ, ũ, ĩ, ẽ, á, é, í, ó, ú, ɔ, ɛ, ɪ, ʊ, ọ, ẹ}
+
+v:
+    {ia, ua} => {ya, wa}
+
+c:
+    {ts, dz} => {s, z}
+    {mk, mg} => {mp, mb}
+    nw => mb
+    Then: nys => ich / @v _ @v
+    Then: nyz => ij / @v _ @v
+    lg => nng
+    Then: (
+        {ky, gy} => {ch, j}
+    )

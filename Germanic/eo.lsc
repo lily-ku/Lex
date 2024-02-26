@@ -1,0 +1,24 @@
+Class c {b, d, g, p, t, k, h, þ, w, s, l, z, r, j}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū, ô, ą, ų, ǫ}
+
+v:
+    {au, ai, eu} => {eo, æ, eo}
+    {ija, iją} => {e, i}
+    {ō, o} => a / _ $
+    Then: ą => * / _ $
+    ō => uo
+    ų => a
+
+c:
+    z => s
+    kw => qu
+    r => ir / @c _ $
+    lj => ll
+
+breaking:
+    {e, i} => {eo, io} / _ {h, l, r @c}
+
+post:
+    {eo, io} => {e, i} / _ ll
+    k => c
+    g => w / {a, o, u} _ {a, o, u}

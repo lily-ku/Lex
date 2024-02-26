@@ -1,0 +1,108 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ñ, ʰ, ʷ, ḑ, ŝ, ẑ, ţ, ḱ}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, é, á, ó, ú}
+
+pre:
+ m̥ => n̥
+
+v:
+ óy => ā
+ {ay, éy, ey} => ē
+ a => o
+ é => á
+ e => a
+ os => us / _ $
+ ō => ā
+ ṓ => ō
+ ó => á
+ ē => ā
+ ḗ => ē
+ o => a
+
+c:
+ kʷ => p
+ {h₁, h₂, h₃} => *
+ w => m // @v _
+ w => u / @v _
+ bʰ => w
+ dʰ => z
+ ǵ => ḑ
+ Then: ḑʰ => s
+ H => a / @c _ @c
+ r̥ => u / @c _ {@c, $}
+ Then: wr => br / $ _
+ ḱ => ţ
+ n̥ => u / @c _ {@c, $}
+ dy => ḑ
+ n̥ => u / _ $
+ gʷ => b
+ Then: bʰ => w
+ H => š / @v _
+ gʰ => h
+ Then: n̥ => r / _ @v
+ ŕ̥ => ór
+ sz => ž
+ l̥ => u
+ ĺ̥ => ol
+
+orth:
+ ḑ => ẑ
+ ţ => ŝ
+ nw => mw
+
+p:
+ n̥w => ū
+ ts => ŝ
+ w => u / @v _
+
+# Language 2
+
+v2:
+ {ā, ē, ō} => {uo, ie, uo} / $ @c? @c? _
+ {ā, ē, ō} => {e, i, u}
+ a => * / _ $
+ a => * / @c _ @c // $ @c? @c? _
+ á => a
+ {wu, wo} => o
+ u => * / @v @c? @c _ $
+ Then: uu => ū
+
+c2:
+ w => v
+ ŝ => s
+ ẑ => z
+ Then: {sn, zn} => {š, ž} / _ $
+ auhus => aus
+ mns => ms
+ zt => st
+ ss => š
+ iey => ai
+ H => * / $ _
+ tn => c / _ $
+ p => k / _ {t}
+ Then: c => s / @c _
+ zy => ž
+ y => j
+ gt => kt
+ n̥ => n
+ í => y
+ sl => šv
+ aod => au
+ tm => nt
+ {om, am, em, um, im} => {ō, ā, ē, ū, ī}
+ mr => vr
+ ú => u
+ Then: j => i / @c _ $
+
+ortho2:
+ ū => ų
+ ii => į
+ ā => ą
+ ō => ǫ
+ ē => ę
+ ī => į
+ y => į
+ u => v / @v _ @v
+ ahu => au
+ np => m / _ $
+ zs => ž
+ hr => sr

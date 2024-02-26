@@ -1,0 +1,96 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, v, j, l, r, y, c, š, ś, č, ņ, ñ, x, f}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ō, ă, ė, ü, ö, ĕ, é, ó, è, á, ú}
+
+v:
+ ü => ö
+ ää => é
+ ä => é
+ uui => ő
+ ui => ö
+ aa => á
+ oo => ó
+ uu => a
+ @v$1 k => $1 $1 / _ @c
+ a => * / _ $
+ u => * / _ $
+ ai => e
+ ee => é
+ e => * / _ $
+
+c:
+ s => sz
+ h => *
+ pp => p
+ k => h / _ {a, o, u, á, ó, ú}
+ p => f
+ Then: f => v / @v _ @v
+ tk => t
+ ll => l
+ m => v / _ $
+
+p:
+ aa => á
+ oo => ó
+ á => * / @c _ $
+ rt => z / _ $
+ i => j / @v _
+ szsz => ss
+ tt => s / @c _
+ Then: tsz => ty / _ $
+ etee => ét / _ $
+ ij => í
+ lvi => l / _ $
+ jj => j / _ @c
+ sze => s / _ $
+ tj => ty / _ $
+ ttv => tv
+ szi => s / _ $
+ jje => j / _ $
+ ée => éj
+ rj => z
+ tt => t
+ sz => s / _ $
+ ss => sz / _ $
+ uő => ű
+ b => v / _ $
+ szj => ss
+ é => * / @v @c? @c _ $
+ é => * / @v r @c? @c _ $
+ {e, i} @c i => {é, í} @c * / _ $
+ tje => ty / _ $
+ kk => cs
+ Then: szcs => cs
+ tn => nt / _ $
+ jj => j
+ szn => nsz / _ $
+ eé => ej
+ tj => ty / _ $
+ tsz => c
+ tk => t
+ {e, i} @c í => {é, í} @c * / _ $
+ a => * / @c _ $
+ aá => áj
+ tvi => t / _ $
+ ss => sz / _ $
+ f => g / _ $
+ b => v / _ $
+ tb => v
+ nó => nya / $ _
+ kh => cs
+ Then: szcs => zs
+ ti => z / {@v, j} _ $
+ ni => ny / _ $
+ rh => r
+ Then: jny => ny / _ $
+ aej => aj
+ tví => k / _ $
+ uu => ú
+ aé => áj
+ aha => á
+ jh => z
+ écí => íts
+ íj => í
+ öha => ő
+ szs => zs
+ th => ty / _ $
+ szv => szev / _ $

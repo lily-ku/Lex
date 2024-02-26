@@ -1,0 +1,11 @@
+Class c {p, t, k, ñ, n, m, r, l, h, s, c}
+Class v {a, e, i, o, u}
+
+v:
+  o => a // $ @c? _
+  Then: {aw, ay} => e
+
+c:
+  ñ => y
+  {kh, ph, th, ch} => {h, h, s, s}
+  c => t

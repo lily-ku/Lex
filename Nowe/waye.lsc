@@ -1,0 +1,31 @@
+Class c {t, k, h, w, n, r, s, q}
+Class v {a, e, i, o, u, ẽ, õ, ũ}
+
+v:
+  @v$1 $1 => $1 *
+
+c:
+  * => a / w _ j
+  h => * / _ nh
+  q => * / _ {nk, nkw}
+  n => t / _ {k, kw}
+  ts => hs / @v _ // _ {h, i, j, r}
+  ts => s // _ {h, i, j, r}
+  r => n / _ {hj, j}
+  r => w / {o, õ, u, ũ} _ {a, e, ẽ, i}
+  r => j / {e, ẽ, i} _ {a, o, õ, u, ũ}
+  r => * / @v {h, q} _
+  r => * / _ {h, q}
+  r => * / w _
+  r => * / _ $
+  h => * / $ _ @c
+  Then: j => * / @c _
+  tsh => ch
+  hw => w
+  hs => s
+  nst => st
+  j => y
+
+p:
+  @v$1 => $1 $1 / _ {h, q}
+  Then: q => ʼ

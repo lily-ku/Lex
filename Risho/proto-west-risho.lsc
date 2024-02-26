@@ -1,0 +1,28 @@
+Feature +long, +aspirated
+
+Diacritic ː [+long]
+Diacritic ʰ [+aspirated]
+
+Class v {a, e, i, o}
+Class c {m, n, t, d, p, s, l, r, w, ʃ, ŋ}
+
+v-muts:
+ ai => eː
+ io => e
+ ei => iː
+ aː i => aː
+ e => ə / @c _ $
+ ae => eː
+ oː => u
+ ia => e
+
+c-muts:
+ d => l / @v _ @v
+ @c s => [+aspirated] *
+ Then: tʰ => s / _ $
+ ŋ => n
+ Then: nw => m
+ l => j / _ $
+ l => j / _ @c
+ l => * / $ _ {i, e}
+ w => *

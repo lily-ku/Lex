@@ -1,0 +1,57 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, š, ś, č, v}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ã, ẽ, ā, ī, ū, ē, ą, ų, y, į, ė}
+Class r {r, u, k, i}
+Class sv {a, e, i, o, u}
+
+pre:
+ @c$1 @v$2 r => $1 r $2 // _ @sv
+ Then: @c$1 @sv$2 r @v$3 => $1 * r $3
+
+v:
+ ū => au
+ il => ī / _ $
+ āu => au
+ au => ai
+ i => ja / $ @c? _
+ u => * / @v @c? @c _ $
+
+c:
+ us => s / @c _ $
+ as => s / @c _ $
+ ś => s
+ w => v
+ gi => ģ / _ $
+ re => er / @c _ $
+ ni => ņ / _ $
+ ās => s / @c _ $
+ aul => au
+ Then: tv => d
+
+p:
+ {s, m, n, z, r, l, š} r @v$1 => {s, m, n, z, r, l, š} $1 r
+ Then: ir => ie / @c _ @c
+ Then: b => v / @v _ @v
+ auņ => āņ / _ $
+ iģ => i / _ $
+ aumi => oņ
+ rja => ļ / _ $
+ šs => šš
+ īri => ieļ / _ $
+ ī => * / @v @c? @c _ $
+ vi => v / _ $
+ air => ai / _ $
+ ešk => ēk / _ $
+ āē => ē
+ si => š / _ $
+ {nj, kj, gj, lj} => {ņ, ķ, ģ, ļ} / $ _
+ āl => ū
+ čs => čč
+ sj => š / $ _
+ aā => ā
+ di => ž / _ $
+ r => * / @c _ $
+ ml => l / $ _
+ rj => ļ
+ ā => o / _ $
+ dj => ģ
+ ede => ē / @c _ @c

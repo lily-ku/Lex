@@ -1,0 +1,17 @@
+Class c {b, d, g, p, t, k, k', k, ł, č, ħ, n, m, r, w, l, s, z, q, ġ, ŋ, ṯ, ḏ, y, š}
+Class v {a, e, i, u, o, à}
+
+v:
+  aa => oo
+  a => à / _ $
+  @v$1 => $1 $1 / _ @c @c? {u, o, aw, ah} $
+  Then: {u, o, aw, ah} => * / @c _ $
+  uy => à / _ $
+  ii => ee
+
+pre:
+  a {ṯ, t} => à * / _ $
+
+c:
+  ṯ => t
+  ḏ => ṯ

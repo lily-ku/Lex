@@ -1,0 +1,31 @@
+Class c {p, t, k, s, m, n, g, b, r, l, ś, ć, ĺ, w, ŕ, d, v, c, h}
+Class v {a, e, i, o, u, ĕ, ĭ}
+
+c-muts:
+ p => b / $ _
+ k => q / $ _
+ nn => ñ / _ $
+ ć => ch
+ s => z / _ $
+ b => v / @v _ @v
+ ŕ => z
+ r => n / _ $
+ ĺ => y
+ k => g / _ $
+ w => g'
+ ś => sh
+
+v-muts:
+ ii => ay
+ a => * / @c _ $
+ uu => u
+ ĭ => e
+ ĕ => e
+ aa => e
+ ee => i
+ oo => o'
+
+post:
+ nn => ñ / _ $
+ rg' => r
+ qi => qe

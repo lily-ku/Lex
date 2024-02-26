@@ -1,0 +1,60 @@
+Class c {p, t, k, s, m, n, g, d, z, b, h, w, j, l, r, y, c, ñ, ç, ş}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ā, ō, ī, ū}
+
+c:
+ kkʷ => pp
+ sj => š
+ ln => ņ
+ ir => j / @c _ $
+ tʷ => k
+ dʷ => g
+ cj => č
+ l => n / _ @c
+ mʷ => b
+ Then: ngi => ņ / _ $
+ si => š / _ $
+ sʷ => z
+ Then: nji => ņ / _ $
+ j => j
+ c => ž
+ tti => č / _ $
+ w => * / $ _ @v
+ nl => ņ
+ kʷ => p
+ č => ç
+ δ => z
+ w => v / @c _
+ w => * / @v _ @v
+ Then: sy => ş / _ $
+ hʷ => f
+ Then: nit => ņt / _ $
+ pʷ => b
+ di => j / _ $
+ gʷ => b
+ Then: mit => ņt / _ $
+ nʷ => g
+ Then: dit => j / _ $
+
+v:
+ u => * / @c _ $
+ o => * / @c _ $
+ iwi => o'
+ yi => aj / @c _ @c
+ ae => aj
+ ōā => ā
+ iī => jī
+ u => v / $ _ @v
+
+p:
+ ty => č / _ $
+ ny => ņ / _ $
+ ti => č / _ $
+ nh => ng / @v _ @v
+ ny => ņ
+ dy => ž
+ tj => č
+ ni => ņ / _ $
+ ppy => p / _ $
+ sj => š
+ my => ņ / _ $
+ āa => ā

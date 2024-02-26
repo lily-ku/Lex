@@ -1,0 +1,10 @@
+Class c {m, n, tʼ, t, d, kʼ, k, g, qʼ, q, j, w, č, š, v, s, z}
+Class v {a, o, u, ä, ö, ü, ë}
+
+v:
+    {a, o, u} => {ë} / @c _ $ // $ @c _ $
+
+c:
+    z => r
+    {q, x} => h
+    w => v

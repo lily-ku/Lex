@@ -1,0 +1,67 @@
+Class c {p, t, ṭ, k, s, ṣ, ẓ, m, n, ṇ, g, d, ḍ, z, b, h, w, v, j, l, r, y, c}
+Class v {a, ạ, e, ẹ, i, o, ọ, u, ä, ā}
+Class r {r, w, l, u, k, g, i}
+
+v:
+ @v$1 n => $1 $1 / _ @c
+ a => * / @v @c? @c? @c _ $
+ ā => a / _ $
+ ā => aa
+
+c:
+ @v$1 ttha => $1 $1 th / _ $
+ jjhe => jh / _ $
+ aatth => aath / _ $
+ ḍ => l / @v _ @v
+ ekkh => aikh
+
+p:
+ u => * / @v @c? @c? @c _ $
+ hph => pph
+ ah => aa / _ @c $
+ a => e / _ @c? @c i $
+ u => e / _ @c? @c i $
+ Then: jj => j / _ $
+ aaa => aa
+ ph => bh / @c _ // p _
+ @v$1 h @c$2 => $1 $1 $2
+ Then: aaa => aa
+ jjh => jh / _ $
+ rk => r / _ $
+ dhid => ḍh
+ y => ya / @c _ $
+ ee => ai
+ eḥ => a
+ kkh => kh / _ $
+ ṭṭh => ṭh / _ $
+ e => * / _ $
+ jjik => jai
+ er => ai / _ $
+ avu => au
+ kkh => kh / @v _ @v
+ jjh => jh / @v _ @v
+ Then: jj => j / _ $
+ i => y / @v _ $
+ ṇṇ => ṁ / _ $
+ tth => th
+ kh => * / _ $ // $ @c? @c @v @v? _
+ cch => ch
+ tk => kh
+ tg => gh
+ ik => ii / _ $
+ @c$1 h @v$2 r a => $1 h r aa
+ @c$1 i r a => $1 r a
+ Then: aaa => aa
+ ṭṭh => ṭh
+ rs => sh / _ $
+ ae => aa
+ k => h / _ $
+ sp => ph
+
+p2:
+ igu => yu / $ @c? _ @c
+ Then: dy => j
+ u => v / _ @v
+ @c$1 $1 => $1 * / _ $
+ ŕ => i / {j} _
+ ŕ => a

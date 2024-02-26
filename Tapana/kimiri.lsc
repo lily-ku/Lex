@@ -1,0 +1,23 @@
+Class c {b, d, g, p, t, k, q, h, m, n, ŋ, ñ, ṛ, ḍ, c, z, j, r, l, s}
+Class v {a, e, i, o, u}
+
+v:
+  e => a / _ $
+  e => a / _ ŋ
+
+c:
+  q => '
+  p => f
+  g => h
+  owi => ay
+  w => g
+  ts => s
+  ŋ => ng
+  ṛ => * / $ _
+  ṛ => * / @v _ @v
+
+p:
+  @v$1 ṛ => $1 $1 / _ $
+  {aa, ee, ii, oo, uu} => {ā, ē, ī, ō, ū}
+  of => ū / _ $
+  ih => ī / _ $
