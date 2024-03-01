@@ -1,0 +1,40 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, č, ǰ, c, j, ñ, ḍ, ḷ}
+Class v {a, i, u, ə, o, e}
+
+v:
+    {a, e, i, o, u} => {aa, ay, ya, a, wa} / $ @c @c? _
+    Then: {i, o} => {e, u} / _ $
+
+c:
+    w => m
+    b => w / @v _ @v
+    b => w / $ _
+    ñ => ny
+    l @c$1 => * $1 $1
+    rz => j
+    r @c$1 => * $1
+    wo => w / @v _ {@c, $}
+    s @c$1 => $1 h
+    Then: hh => h
+    Then: {wu, wo} => w / _ $
+
+nasal:
+    {a, e, i, o, u} {n, m} => {ã, ẽ, ĩ, õ, ũ} * / _ {@c, $} // _ y
+
+p:
+    zy => jh
+    ay {n, m} => ãy * / _ {@c, $} // _ y
+    ss => sh
+    wo => w / @v _
+    {aã, eẽ, iĩ, oõ, uũ} => {ãã, ẽẽ, ĩĩ, õõ, ũũ}
+    c => ch
+    r => * / _ $
+    {dy, gy} => {j, jh}
+    tr => ch
+    wy => sh
+    Then: ao => aa
+    l => n / _ $
+    Then: akn => aan / _ $
+    Then: {a, e, i, o, u} k => {aa, ee, ii, oo, uu} * / _ $
+    hy => s
+    Then: g => w / _ $
