@@ -38,3 +38,4 @@ p:
     Then: {a, e, i, o, u} k => {aa, ee, ii, oo, uu} * / _ $
     hy => s
     Then: g => w / _ $
+    Then: zh => jh
