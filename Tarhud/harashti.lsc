@@ -39,3 +39,4 @@ p:
     hy => s
     Then: g => w / _ $
     Then: zh => jh
+    Then: yh => jh
