@@ -12,3 +12,7 @@ c:
     g => h
     u => w / _ @v
     {z, s, t, d, k, g, h} @v n => {z, s, t, d, k, g, h} * r / @v _ @v
+
+p:
+    {hw, mw, nw, dw, kw, xw} => {f, b, d, dh, p, f}
+    oh => ah / _ $

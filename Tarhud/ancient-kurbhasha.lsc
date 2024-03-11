@@ -1,13 +1,7 @@
 Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, č, ǰ}
 Class v {a, i, u, ə, o}
 
-v:
-    ə => i
-
 c:
-    q => g
-    ś => š
-    nl => tł
-    l => n / $ _
-    Then: lš => ł
-    ll => tł
+    ł => ḥ
+    H => *
+    {bh, gh, dh} => {w, y, z}
