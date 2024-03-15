@@ -1,0 +1,17 @@
+Class c {p, t, k, b, d, g, š, č, r, l, m, n, v, s, z, w, ḥ}
+Class v {a, e, i, u, ĕ, ū, ī, ə, ã, ĩ, õ, ũ}
+
+v:
+    ə => i
+
+c:
+    ṛ => y
+    kw => č
+    w => ḥ
+    {ń, ḿ} => {ni, mi}
+    ñ => n
+    {kh, th} => {ḥ, ṯ}
+
+p:
+    {a, e, i, o, u} r̃ => {ā, ē, ī, ō, ū} *
+    then: m => w / @v _ @v
