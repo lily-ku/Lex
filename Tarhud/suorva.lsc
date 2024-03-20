@@ -1,0 +1,15 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, ʼ, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, δ, ŋ}
+Class v {a, i, u, ə, o, e, ä, ü}
+
+v:
+    {oo, ii} => {uo, ie}
+    äje => ää / _ $
+    ü => y
+
+c:
+    sn => tn
+    ns => nt
+    h => *
+    nl => ll
+    s @c$1 => $1 $1
+    nm => m

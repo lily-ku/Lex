@@ -1,0 +1,34 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, h, l, x, ʼ, w, r, n, m, s, š, ś, sʼ, z, ž, ź, q, qʼ, ġ, f, y, δ, ŋ, c, č}
+Class v {a, i, u, ə, o, e, ä, ü, ë, å}
+
+v:
+    å => o
+    ë => a
+    ä => e
+
+c:
+    p => h
+    w => m / _ $
+    w => b
+    tk => č
+    k => s
+    then: rb => r
+    rr => z
+    {ls, lk, lt, lm, ln} => {š, š, č, y, y}
+    ll => z
+    lb => g
+    rs => sy
+    nm => gm
+    rm => m
+    tp => d
+    tn => ga / _ $
+    tm => da / _ $
+    h => v / _ $
+    then: lb => p
+    then: lh => š
+    tn => d / @v _ @v
+    tm => b / @v _ @v
+    nl => ng
+    then: ty => č
+    nh => ny
+    nn => ng
