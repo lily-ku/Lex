@@ -1,0 +1,12 @@
+Class c {b, d, g, p, t, k, pʼ, tʼ, kʼ, q, qʼ, tz, tzʼ, ty, tyʼ, s, m, ch, chʼ, n, l, r, h, y, j, x, ʼ, w}
+Class v {a, e, i, o, u}
+
+v:
+    @v$1 $1 => $1 *
+    @v$1 => $1 $1 / _ {ʼ, h} @c
+
+c:
+    {ʼ, h} => * / _ @c
+    r => j / _ $
+    {tz, tzʼ, ty, tyʼ} => {ch, chʼ, ch, chʼ}
+    ng => j
