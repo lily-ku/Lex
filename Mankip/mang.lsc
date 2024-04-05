@@ -1,0 +1,62 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, j, c}
+Class v {a, u, i, ã, ũ, ĩ, ā, ū, ī, à, ù, ì, è, ò, e, o}
+
+v:
+    {ā, ū, ī} => {a, ua, ie}
+
+c:
+    dzj => jj
+    tsj => q
+    dz => z
+    sj => x
+    ts => c
+    then: gr => h
+
+morphs:
+    qa => qia
+    ja => jia
+    uw => uo
+    j => zh / _ {u, o, a}
+    zie => jie
+    {aw, ew} => ao
+    nj => y
+    then: jrj => zh
+    pj => b
+    srj => sh
+    then: shi => xi / _ @v
+    then: {mzh, nzh} => zzh
+    j => i / @v _ $
+    ng => w / $ _
+    ng => zh
+    mrj => m / $ _
+
+v-fix:
+    aoa => uo
+    ie => yi / $ _
+    ua => wa / $ _
+    sie => xie
+    wrj => b
+    zrj => j
+    brj => p
+    iei => ei
+
+tones:
+    {a, u, i, e, o} {t, s} => {á, ú, í, é, ó} * / _ $
+    {a, u, i, e, o} ʔ => {à, ù, ì, è, ò} * / _ $
+    hj {a, u, e, o, i} => x {iá, iú, ié, iú, í}
+    hzh {a, u, e, o, i} => zh {ǎ, ǔ, ě, ǒ, ǐ}
+    crzh {a, u, e, o, i} => ch {à, ù, è, ò, ì}
+    crj {a, u, e, o, i} => q {ia, iu, ie, iu, i}
+    then: zhiè => zì
+    zzh {a, u, e, o, i} => zh {uà, uò, uì, uò, uì}
+    zhu {a, u, e, o, i} => zh {ǎ, ǔ, ě, ǒ, ǐ}
+    su {a, u, e, o, i} => s {ǎ, ǔ, ě, ǒ, ǐ}
+    then: n => ng / {uo, uò, uó, uǒ} _ $
+    then: zzh => zh
+    sr {a, u, e, o, i} => s {á, ú, é, ó, í}
+    krc {a, u, e, o, i} => q {iá, ú, ié, iú, í}
+    then: {a, u, e, o, i} s => {á, ú, é, ó, í} * / _ @c
+
+tones-fix:
+    ùo => uò
+    ʔ => *

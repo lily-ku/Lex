@@ -1,0 +1,39 @@
+Class c {p, t, k, b, d, g, s, z, r, m, ñ, n, x, ṭ, ḍ, ṣ, ĝ, y, š, č, w, ć, q, j}
+Class v {a, u, i, ã, ũ, ĩ, ā, ū, ī}
+
+v:
+    {ã, ũ, ĩ} => {ā, ū, ī}
+    @v => * / $ _ @c
+
+c:
+    p => ʔ / _ $
+    nk => ng
+    ñĝ => j
+    ts => t
+    ṭ => ts
+    m => w / _ $
+    ĝ => w
+    ns => nj
+    ḍ => dz
+    nñ => nj
+    ñ => j
+    ṣ => j // _ $
+    x => h
+    then: ṣ => t / _ $
+
+elision:
+    {a, u, i} => * / $ @c _ {r, j}
+
+crazy:
+    @c$1 {a, u, i} {s, n} => $1 * r / _ @c
+    then: rg => rj
+    nj @v n => j / _ $
+    raʔ => nʔ / @v _ $
+    g @v n => gr / _ @v
+    b @v t => pj / $ _
+    nts => sr
+    mrts => srj
+    h => * / {i, ī} _ {i, ī}
+    j @v ts => tsj
+    then: {iī, īi, ii, īī} => ī
+    tsrts => tsj
