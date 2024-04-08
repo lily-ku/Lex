@@ -1,0 +1,44 @@
+Class c {b, ḅ, t, d, k, g, ġ, p, ṗ, ḥ, c, l, r, m, n, z, ṡ, s, ż, w}
+Class v {a, e, i, o, u, ã, ẽ, õ, ũ, ǒ, ā, ē, ī, ō, ū}
+
+v:
+    {ã, ẽ, õ, ũ, ǒ, y} => {a, e, o, u, a, e}
+    then: (
+        {a, e, i, o, u} {g, l, p} => {ō, ā, ē, ā, ō} * / _ $
+        u => a / _ $
+    )
+
+c:
+    {z, v, ḅ, ġ} => {r, w, w, y}
+    {ń, ḿ} => a
+    {ŕ, ś} => {ra, as}
+    c => s / _ $
+    c => s / @v _ @v
+    c => t
+    ż => d
+    then: w => m / @v _ $
+    then: w => * / @c _ $
+    ṡ => * / _ $
+    then: sr => str
+    ṡ => h
+    ṗ => f
+
+ortho:
+    {j, w, y} => {i, v, i}
+    {aa, ee, ii, oo, uu} => {ā, ē, ī, ō, ū}
+    then: ai => ē / _ $
+    then: (
+        {a, e, i, o, u} {g, l, p, b} => {ō, ā, ē, ā, ō} * / _ $
+    )
+
+ortho-2:
+    v => b / _ @c
+    then: iī => ihī
+    ḥ => h
+    @c$1 ṡ => $1 $1
+    k => c
+    then: h => e / @c _ $
+    then: aō => āu
+    ur => or / _ $
+    then: str => tr / @v _ @v
+    @c$1 h => $1 $1 / @v _ @v

@@ -1,0 +1,17 @@
+Class c {m, n, p, b, t, d, c, j, k, g, ʼ, s, z, ṣ, h, y, w, r, l, č, ṛ, ḥ, q, š, ś}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū, ä, ï, ü}
+
+v:
+    {a, e, o, ā, ē, ō} => {a, a, a, ā, ā, ā}
+
+c:
+    {c, j} => {ś, h}
+    ts => s
+    {ky, ty} => {kh, th}
+    iy => j / $ _ @v
+    n @c$1 => $1 $1 / @v _ @v
+    then: yy => j
+    ʼ => k
+
+elision:
+    {a, u, i} => * / @v @c _ @c @v
