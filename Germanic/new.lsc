@@ -1,0 +1,14 @@
+Class c {s, z, r, l, w, p, t, k, b, d, g, þ, j, n, m, y, f, h}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū, ô, å, ö, ü}
+
+v:
+    ei => ii
+    i => ä / _ @c @c
+    e => a / _ $
+    o => e / _ $
+    ao => oo
+    al => oo / $ @c? _ @c
+    i => e / _ $
+
+c:
+    z => t
