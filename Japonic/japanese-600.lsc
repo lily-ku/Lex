@@ -1,0 +1,17 @@
+Class c {p, t, k, b, d, g, w, s, z, r, n, m, h, f, v}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū}
+
+v:
+    ae => ē
+    u => i / ch _
+    ō => va
+    oe => ē
+    ī => ei
+
+c:
+    ts => ch
+    sv => su
+    sg => sk
+    shr => sr
+    v => * / v @v _
+    h => * / @v _ @v

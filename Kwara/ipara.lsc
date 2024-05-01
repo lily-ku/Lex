@@ -1,0 +1,27 @@
+Class c {b, d, g, p, t, k, c, r, l, m, n, ŋ, ñ, y, j, w}
+Class v {a, e, i, o, u, ə}
+
+v:
+    ə => i
+
+c:
+    d => r / @v _ @v
+    l => n / @v _ @v
+    {b, g, d} => {p, k, t} / _ $
+    then: {c, j} => {t, d}
+    ŋ => n / _ $
+    ŋ => ng
+
+p:
+    {o, i} => {w, y} / _ $
+    then: (
+        {ry, ly, ny} => {i, ñ, ñ}
+        {ty, ky} => t
+        {rw, lw, nw} => {u, m, m}
+        {tw, kw} => p
+        ngy => ñ
+    )
+
+p2:
+    {ñ, my} => {ña, ñi} / $ _ $
+    t => ti / $ _ $

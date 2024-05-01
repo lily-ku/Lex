@@ -1,0 +1,21 @@
+Class c {p, t, k, b, d, g, w, s, z, r, n, m, h, f}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū}
+
+v:
+    i => * / {sh, ch} _ $
+    then: i => e / _ $
+    u => * / _ $
+    then: i => * / {sh, ch} _ @c
+    u => * / $ @c _ @c
+
+c:
+    {sh, ch} => {s, ts} / _ @v
+    then: ch => ts / _ $
+    w => v
+    k => ch / _ i
+    r => * / @v _ @v r
+
+plosive-shift:
+    {p, t, k, b, d, g} => {b, d, g, v, z, w} // _ @c
+    then: shd => sht
+    then: w => v

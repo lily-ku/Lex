@@ -1,0 +1,22 @@
+Class c {p, t, k, b, d, g, w, s, z, r, n, m, h, f, v, l}
+Class v {a, e, i, o, u, ā, ē, ī, ō, ū}
+
+v:
+    o => a / _ $
+    au => aa
+
+c:
+    v => y
+    h => s / _ i // {c, s} _
+    n {e, i} => ñ * / _ $
+    sue => shye
+    d => l / @v _ @v
+    then: {p, t, k, b, d, g} => {f, θ, x, p, t, k}
+    then: θt => θ
+    zy => zh
+    sr => tr
+
+diphthongs:
+    a => * / @v @c? @c _ $
+    ia => ya
+    ue => ai
