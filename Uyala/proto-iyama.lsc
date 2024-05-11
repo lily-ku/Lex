@@ -1,0 +1,15 @@
+Class c {b, bʷ, d, g, gʷ, p, pʷ, t, k, kʷ, r, l, n, m, y, h, s, š, w, ʼ, θ, f, j}
+Class v {a, i, u, ə, ā, ī, ū}
+
+v:
+    ə => a
+    then: {ay, iy, uy, āy, īy, ūy} => {ā, ī, ū, e, ya, wa}
+    then: {aw, iw, uw, āw, īw, ūw} => {o, e, u, ō, ē, ū}
+
+c:
+    {kku, ku} => {kʷ} / _ $
+    θ => ṭ
+    ʼ => *
+    st => ṭ
+    ts => č
+    {k, t, p} => ʼ / _ @c // _ {y, r, l, s}
