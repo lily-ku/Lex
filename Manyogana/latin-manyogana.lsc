@@ -1,9 +1,9 @@
 c:
-    {ka, sa, ta, na, pa, ma, ya, ra, wa, ga, za, da, ba} => {可, 左, 多, 那, 八, 萬, 也, 良, 和, 我, 社, 太, 伐}
-    {ki, si, ti, ni, pi, mi, yi, ri, wi, gi, zi, di, bi} => {氣, 子, 知, 二, 比, 彌, 延, 理, 位, 伎, 自, 治, 婢}
-    {ku, su, tu, nu, pu, mu, yu, ru, wu, gu, zu, du, bu} => {久, 寸, 通, 奴, 布, 牟, 由, 留, 虞, 具, 受, 豆, 歩}
-    {ke, se, te, ne, pe, me, ye, re, we, ge, ze, de, be} => {祁, 世, 堤, 尼, 反, 馬, 曳, 列, 廻, 宜, 是, 代, 弁}
-    {ko, so, to, no, po, mo, yo, ro, wo, go, zo, do, bo} => {古, 宗, 刀, 努, 凡, 毛, 用, 路, 乎, 吾, 俗, 土, 煩}
+    {ka, sa, ta, na, pa, ma, ya, ra, wa, ga, za, da, ba, ha} => {可, 左, 多, 那, 八, 萬, 也, 良, 和, 我, 社, 太, 伐, 波}
+    {ki, si, ti, ni, pi, mi, yi, ri, wi, gi, zi, di, bi, hi} => {氣, 子, 知, 二, 比, 彌, 延, 理, 位, 伎, 自, 治, 婢, 比}
+    {ku, su, tu, nu, pu, mu, yu, ru, wu, gu, zu, du, bu, hu} => {久, 寸, 通, 奴, 布, 牟, 由, 留, 虞, 具, 受, 豆, 歩, 不}
+    {ke, se, te, ne, pe, me, ye, re, we, ge, ze, de, be, he} => {祁, 世, 堤, 尼, 反, 馬, 曳, 列, 廻, 宜, 是, 代, 弁, 部}
+    {ko, so, to, no, po, mo, yo, ro, wo, go, zo, do, bo, ho} => {古, 宗, 刀, 努, 凡, 毛, 用, 路, 乎, 吾, 俗, 土, 煩, 保}
 
 v:
     {a, i, u, e, o} => {安, 以, 宇, 衣, 於}
